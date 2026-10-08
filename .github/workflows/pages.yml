@@ -1,0 +1,43 @@
+# Optional: deploy ONLY the dashboard (app/) to GitHub Pages with GitHub Actions.
+#
+# Not needed for the default setup: with Settings -> Pages -> "Deploy from a branch"
+# (main, / root) the site already works — the root index.html redirects to app/.
+# To use this workflow instead, set Settings -> Pages -> Source: "GitHub Actions"
+# and run it from the Actions tab.
+name: Deploy dashboard to GitHub Pages (Actions source)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Runs the firmware test-suite and regenerates app/samples/demo-session.log
+      # (the "Demo replay" data) from the current firmware code.
+      - name: Firmware tests + demo data
+        run: make -C tests/native
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -467,5 +467,42 @@ document.querySelectorAll('[data-cmd]').forEach((b) => b.onclick = () => send(b.
 $('btnSendCmd').onclick = () => { const v = $('cmdInput').value.trim(); if (v) { send(v); $('cmdInput').value = ''; } };
 $('cmdInput').onkeydown = (e) => { if (e.key === 'Enter') $('btnSendCmd').click(); };
 
-renderGauge(); renderTests(); renderSettings(); renderIncidents(); updateGeo(); render();
-setInterval(render, 500);
+// ---------------------------------------------- hosting / browser support --
+function checkCompat() {
+  const msgs = [];
+  const serial = SerialTransport.supported(), ble = BleTransport.supported();
+  if (!window.isSecureContext) {
+    msgs.push('Open this page over HTTPS (e.g. GitHub Pages) or http://localhost — browsers only allow USB and Bluetooth access on secure pages.');
+  } else if (!serial && !ble) {
+    msgs.push('This browser cannot connect to the device (no Web Serial / Web Bluetooth). Use Chrome or Edge on a computer, or Chrome on Android. iPhone/iPad browsers are not supported. Demo replay still works.');
+  } else if (!serial) {
+    msgs.push('USB is not available in this browser — use Connect Bluetooth (ESP32), or Chrome/Edge on a computer for USB.');
+  }
+  $('btnSerial').disabled = !serial || !window.isSecureContext;
+  $('btnBle').disabled = !ble || !window.isSecureContext;
+  $('compatBanner').textContent = msgs.join(' ');
+  $('compatBanner').classList.toggle('hidden', !msgs.length);
+}
+
+// Keep the screen on while a device is connected: the SOS path runs through this page.
+let wakeLock = null;
+async function updateWakeLock() {
+  const want = !!S.transport && !S.replay && document.visibilityState === 'visible';
+  try {
+    if (want && !wakeLock && 'wakeLock' in navigator) {
+      wakeLock = await navigator.wakeLock.request('screen');
+      wakeLock.addEventListener('release', () => { wakeLock = null; });
+    } else if (!want && wakeLock) {
+      await wakeLock.release();
+      wakeLock = null;
+    }
+  } catch { wakeLock = null; }
+}
+document.addEventListener('visibilitychange', updateWakeLock);
+
+if ('serviceWorker' in navigator && window.isSecureContext) {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
+
+checkCompat(); renderGauge(); renderTests(); renderSettings(); renderIncidents(); updateGeo(); render();
+setInterval(() => { render(); updateWakeLock(); }, 500);

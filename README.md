@@ -32,7 +32,7 @@ MPU-6050 ──I²C──► Microcontroller (firmware) ──USB serial / BLE�
 2. Wire it per [docs/WIRING.md](docs/WIRING.md) (prototype pins kept: red LED D8, green LED D9, buzzer D10, button D3 to GND).
 3. Set `MOUNT_FORWARD_AXIS` / `MOUNT_UP_AXIS` and `PROFILE_DEFAULT` in `config.h`, then upload.
 4. Open the Serial Monitor at **115200**. You will see `[IMU] Connected`, `[CALIBRATION] Complete`, `[STATE] SAFE`.
-5. Serve the dashboard: `cd app && python3 -m http.server 8000`, then open `http://localhost:8000` in Chrome or Edge and click **Connect USB** (or **Connect Bluetooth** for ESP32). Click **Demo replay** to see the UI without hardware.
+5. Open the dashboard on **GitHub Pages**: <https://supercalifragilisticexpialidociouscoder.github.io/sushisprojectcauseheisgay/> (redirects to `app/`). It works with *Settings → Pages → Deploy from a branch → `main` / root*. Use Chrome/Edge on a computer (**Connect USB**) or Chrome on Android (**Connect Bluetooth**, ESP32). **Demo replay** shows the UI without hardware. To run it locally instead: `cd app && python3 -m http.server 8000`, then open `http://localhost:8000`.
 6. With the bike upright on its centre stand: **Settings → Calibrate riding orientation**.
 7. Settings: add emergency contacts and an automatic alert channel (ntfy topic or webhook).
 
