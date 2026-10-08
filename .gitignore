@@ -1,0 +1,4 @@
+tests/native/bsb_tests
+*.o
+.DS_Store
+node_modules/

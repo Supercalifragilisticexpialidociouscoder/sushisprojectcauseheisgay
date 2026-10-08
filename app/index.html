@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0d10">
+  <title>Bike Safety Belt</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <div class="brand-name">Bike Safety Belt</div>
+        <div class="brand-sub" id="deviceInfo">No device</div>
+      </div>
+    </div>
+    <div class="conn">
+      <span class="pill pill-offline" id="linkPill">DEVICE OFFLINE</span>
+      <button class="btn" id="btnSerial" title="Chrome / Edge desktop">Connect USB</button>
+      <button class="btn" id="btnBle" title="ESP32 boards, Chrome on Android / desktop">Connect Bluetooth</button>
+      <button class="btn btn-ghost" id="btnDemo" title="Replay a recorded session">Demo replay</button>
+      <button class="btn btn-ghost hidden" id="btnDisconnect">Disconnect</button>
+    </div>
+  </header>
+
+  <div class="banner hidden" id="simBanner">SIMULATION / REPLAY DATA — not live sensor readings. No real emergency alerts are sent.</div>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="live">Live</button>
+    <button class="tab" data-tab="incidents">Incidents</button>
+    <button class="tab" data-tab="test">Test mode</button>
+    <button class="tab" data-tab="settings">Settings</button>
+    <button class="tab" data-tab="console">Console</button>
+  </nav>
+
+  <main>
+    <!-- LIVE -->
+    <section class="view active" id="view-live">
+      <div class="status-card" id="statusCard" data-tone="offline">
+        <div class="status-label">System status</div>
+        <div class="status-value" id="statusValue">DEVICE OFFLINE</div>
+        <div class="status-desc" id="statusDesc">Connect the Bike Safety Belt over USB or Bluetooth.</div>
+        <div class="status-meta" id="statusMeta"></div>
+        <button class="btn btn-warn hidden" id="btnCancelPossible">I'M OKAY — CANCEL</button>
+      </div>
+
+      <div class="grid">
+        <div class="panel">
+          <div class="panel-title">Lean angle</div>
+          <svg class="gauge" viewBox="0 0 200 120" aria-label="Lean angle gauge">
+            <path id="gaugeArcAbn" d="" class="arc-abn"/>
+            <path id="gaugeArcNorm" d="" class="arc-norm"/>
+            <line id="gaugeNeedle" x1="100" y1="105" x2="100" y2="20" class="needle"/>
+            <circle cx="100" cy="105" r="5" class="hub"/>
+            <text x="12" y="116" class="gauge-lbl">L 90°</text>
+            <text x="160" y="116" class="gauge-lbl">R 90°</text>
+          </svg>
+          <div class="big-num"><span id="leanVal">—</span></div>
+          <div class="sub" id="leanText">No data</div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">Orientation</div>
+          <dl class="kv">
+            <dt>Roll</dt><dd id="rollVal">—</dd>
+            <dt>Pitch</dt><dd id="pitchVal">—</dd>
+            <dt>Tilt from upright</dt><dd id="tiltVal">—</dd>
+            <dt>Angle source</dt><dd id="refVal">—</dd>
+          </dl>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">Motion</div>
+          <dl class="kv">
+            <dt>Acceleration</dt><dd id="accVal">—</dd>
+            <dt>Peak (last 100 ms)</dt><dd id="accPeak">—</dd>
+            <dt>Angular velocity</dt><dd id="gyrVal">—</dd>
+            <dt>Peak (last 100 ms)</dt><dd id="gyrPeak">—</dd>
+          </dl>
+          <div class="sub" id="motionText"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">Crash confidence</div>
+          <div class="conf">
+            <div class="conf-bar"><div class="conf-fill" id="confFill"></div>
+              <div class="conf-mark" id="markPossible" title="Possible crash threshold"></div>
+              <div class="conf-mark crash" id="markCrash" title="Crash threshold"></div>
+            </div>
+            <div class="big-num"><span id="confVal">—</span></div>
+          </div>
+          <div class="sub" id="confText">Combines 5 indicators. A single indicator can never trigger an alarm.</div>
+        </div>
+
+        <div class="panel panel-wide">
+          <div class="panel-title">System health</div>
+          <ul class="health" id="healthList"></ul>
+        </div>
+
+        <div class="panel panel-wide">
+          <div class="panel-title">Last detector evaluation <span class="muted" id="detWhen"></span></div>
+          <div id="detPanel" class="muted">No motion event evaluated yet.</div>
+        </div>
+      </div>
+      <p class="disclaimer">Prototype safety system. It cannot guarantee that an accident is detected or that an emergency alert is delivered. A detected event is not a confirmed accident.</p>
+    </section>
+
+    <!-- INCIDENTS -->
+    <section class="view" id="view-incidents">
+      <div class="toolbar">
+        <button class="btn" id="btnSyncLog">Sync from device</button>
+        <button class="btn btn-ghost" id="btnExportCsv">Export CSV</button>
+        <button class="btn btn-ghost" id="btnExportJson">Export JSON</button>
+        <button class="btn btn-ghost" id="btnClearLog">Clear app history</button>
+      </div>
+      <div class="table-wrap">
+        <table class="table">
+          <thead><tr>
+            <th>Time</th><th>ID</th><th>Event</th><th>Outcome</th><th>Confidence</th>
+            <th>Max accel</th><th>Max rotation</th><th>Max lean</th><th>Location</th><th>SOS</th>
+          </tr></thead>
+          <tbody id="incBody"><tr><td colspan="10" class="muted">No incidents recorded.</td></tr></tbody>
+        </table>
+      </div>
+      <p class="sub">Times for incidents from an earlier device power-up are shown as boot number + uptime: the device has no real-time clock.</p>
+    </section>
+
+    <!-- TEST MODE -->
+    <section class="view" id="view-test">
+      <p class="sub">Simulations replace the sensor with a recorded-motion generator and run it through the <b>real</b> fusion, detector and state machine on the device. Simulated SOS alerts are never sent to contacts.</p>
+      <div class="tests" id="testList"></div>
+      <div class="panel">
+        <div class="panel-title">Why did the system classify the event this way?</div>
+        <div id="testExplain" class="muted">Run a test to see the explanation.</div>
+      </div>
+    </section>
+
+    <!-- SETTINGS -->
+    <section class="view" id="view-settings">
+      <div class="grid">
+        <div class="panel">
+          <div class="panel-title">Rider</div>
+          <label class="field">Rider name<input id="setRider" placeholder="e.g. A. Kumar"></label>
+          <label class="field">Notes for responders<input id="setNotes" placeholder="e.g. blood group, allergies"></label>
+        </div>
+        <div class="panel">
+          <div class="panel-title">Emergency contacts</div>
+          <div id="contactList"></div>
+          <div class="row">
+            <input id="newContactName" placeholder="Name">
+            <input id="newContactPhone" placeholder="+91…" inputmode="tel">
+            <button class="btn" id="btnAddContact">Add</button>
+          </div>
+        </div>
+        <div class="panel panel-wide">
+          <div class="panel-title">Automatic alert delivery</div>
+          <p class="sub">A web page cannot send SMS or place calls by itself, and the device has no GSM module. Configure at least one automatic channel below, otherwise the SOS screen only offers manual “send SMS / share” buttons.</p>
+          <label class="field">ntfy.sh topic (contacts install the ntfy app and subscribe)<input id="setNtfy" placeholder="e.g. bsb-alerts-7f3k9"></label>
+          <label class="field">Webhook URL (your server, Home Assistant, Twilio Function, …) — receives JSON via POST<input id="setWebhook" placeholder="https://…"></label>
+          <label class="check"><input type="checkbox" id="setPhoneLoc"> Use this phone's location when the device has no GPS fix</label>
+          <div class="row">
+            <button class="btn" id="btnTestAlert">Send test alert</button>
+            <span class="sub" id="testAlertResult"></span>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-title">Vehicle profile</div>
+          <select id="setProfile">
+            <option value="scooter">Scooter</option>
+            <option value="standard">Standard motorcycle</option>
+            <option value="sport">Sport motorcycle</option>
+          </select>
+          <p class="sub" id="profileInfo"></p>
+        </div>
+        <div class="panel">
+          <div class="panel-title">Calibration</div>
+          <p class="sub">Riding orientation: put the bike upright on its centre stand (or hold it vertical), keep it still, then press:</p>
+          <div class="row">
+            <button class="btn" data-cmd="CAL LEVEL">Calibrate riding orientation</button>
+            <button class="btn btn-ghost" data-cmd="CAL GYRO">Re-run gyro calibration</button>
+            <button class="btn btn-ghost" data-cmd="CAL CLEAR">Clear orientation</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONSOLE -->
+    <section class="view" id="view-console">
+      <div class="row">
+        <input id="cmdInput" placeholder="Command (HELP, STATUS, LOG, SIM 7 …)">
+        <button class="btn" id="btnSendCmd">Send</button>
+        <label class="check"><input type="checkbox" id="showJson"> show JSON</label>
+      </div>
+      <pre class="console" id="console"></pre>
+    </section>
+  </main>
+
+  <!-- EMERGENCY OVERLAY -->
+  <div class="overlay hidden" id="overlay" role="alertdialog" aria-live="assertive">
+    <div class="overlay-inner">
+      <div class="ov-kicker" id="ovKicker"></div>
+      <h1 class="ov-title" id="ovTitle"></h1>
+      <div class="ov-question" id="ovQuestion"></div>
+      <div class="ov-count" id="ovCount"></div>
+      <div class="ov-body" id="ovBody"></div>
+      <div class="ov-actions" id="ovActions"></div>
+    </div>
+  </div>
+
+  <input type="file" id="replayFile" accept=".log,.txt,.jsonl" class="hidden">
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
