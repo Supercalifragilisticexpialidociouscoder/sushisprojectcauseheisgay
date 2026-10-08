@@ -1,0 +1,922 @@
+866820	[BOOT] Bike Safety Belt firmware 1.0.0 (NATIVE)
+866820	[BOOT] Boot #1, device BSB-1A2B
+866820	[CONFIG] Profile: standard | Mount fwd +X up +Z | Accel +/-16 g | Gyro +/-2000 deg/s | 100 Hz
+866820	[CONFIG] GPS module: not installed (location UNAVAILABLE) | BLE: none | GSM/SMS: none (alerts go via the app)
+866820	[IMU] Connected (WHO_AM_I 0x68)
+866820	[CALIBRATION] Keep the bike still - measuring sensor offsets...
+866820	[STATE] CALIBRATING (boot)
+866821	{"t":"hello","fw":"1.0.0","proto":1,"dev":"BSB-1A2B","board":"NATIVE","boot":1,"gpsHw":0,"bleHw":0,"batHw":0,"cd":10,"ms":866821}
+866821	{"t":"cfg","profile":"standard","leanN":45,"leanC":65,"gyrN":120,"gyrC":280,"accN":2.2,"accC":4.5,"tcN":30,"tcC":65,"restN":20,"restC":60,"possible":30,"crash":65,"minInd":3,"accRange":16,"gyrRange":2000,"rate":100,"alpha":0.980,"mount":"+X","up":"+Z","level":0,"cal":0}
+866821	{"t":"state","st":"CALIBRATING","prev":"CALIBRATING","why":"boot","inc":0,"type":"AUTO","cd":0,"ms":866821}
+866821	{"t":"tel","ms":866821,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+866921	{"t":"tel","ms":866921,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+867021	{"t":"tel","ms":867021,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+867121	{"t":"tel","ms":867121,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+867221	{"t":"tel","ms":867221,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+867321	{"t":"tel","ms":867321,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+867421	{"t":"tel","ms":867421,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+867521	{"t":"tel","ms":867521,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+867621	{"t":"tel","ms":867621,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+867721	{"t":"tel","ms":867721,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+867821	{"t":"tel","ms":867821,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+867921	{"t":"tel","ms":867921,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+868021	{"t":"tel","ms":868021,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+868121	{"t":"tel","ms":868121,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+868221	{"t":"tel","ms":868221,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+868321	{"t":"tel","ms":868321,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+868421	{"t":"tel","ms":868421,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+868521	{"t":"tel","ms":868521,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+868621	{"t":"tel","ms":868621,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+868721	{"t":"tel","ms":868721,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+868821	{"t":"tel","ms":868821,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+868921	{"t":"tel","ms":868921,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+869021	{"t":"tel","ms":869021,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+869121	{"t":"tel","ms":869121,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+869221	{"t":"tel","ms":869221,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+869321	{"t":"tel","ms":869321,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+869421	{"t":"tel","ms":869421,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+869521	{"t":"tel","ms":869521,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+869621	{"t":"tel","ms":869621,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+869721	{"t":"tel","ms":869721,"st":"CALIBRATING","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":0,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+869810	[CALIBRATION] Complete - gyro bias (0.57, -0.87, 0.32) deg/s, gravity 1.000 g
+869810	[STATE] SAFE (calibration complete)
+869810	{"t":"state","st":"SAFE","prev":"CALIBRATING","why":"calibration complete","inc":0,"type":"AUTO","cd":0,"ms":869810}
+869810	{"t":"cfg","profile":"standard","leanN":45,"leanC":65,"gyrN":120,"gyrC":280,"accN":2.2,"accC":4.5,"tcN":30,"tcC":65,"restN":20,"restC":60,"possible":30,"crash":65,"minInd":3,"accRange":16,"gyrRange":2000,"rate":100,"alpha":0.980,"mount":"+X","up":"+Z","level":0,"cal":1}
+869821	{"t":"tel","ms":869821,"st":"SAFE","r":0.0,"p":-0.3,"tl":0.3,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+869921	{"t":"tel","ms":869921,"st":"SAFE","r":0.0,"p":-0.2,"tl":0.2,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+870021	{"t":"tel","ms":870021,"st":"SAFE","r":0.0,"p":-0.2,"tl":0.2,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+870121	{"t":"tel","ms":870121,"st":"SAFE","r":0.0,"p":-0.1,"tl":0.1,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+870221	{"t":"tel","ms":870221,"st":"SAFE","r":0.0,"p":-0.1,"tl":0.1,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+870321	{"t":"tel","ms":870321,"st":"SAFE","r":0.0,"p":-0.1,"tl":0.1,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+870421	{"t":"tel","ms":870421,"st":"SAFE","r":0.0,"p":-0.1,"tl":0.1,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+870521	{"t":"tel","ms":870521,"st":"SAFE","r":0.0,"p":-0.1,"tl":0.1,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+870621	{"t":"tel","ms":870621,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+870721	{"t":"tel","ms":870721,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+870821	[LINK] App connected via USB
+870821	{"t":"hello","fw":"1.0.0","proto":1,"dev":"BSB-1A2B","board":"NATIVE","boot":1,"gpsHw":0,"bleHw":0,"batHw":0,"cd":10,"ms":870821}
+870821	{"t":"cfg","profile":"standard","leanN":45,"leanC":65,"gyrN":120,"gyrC":280,"accN":2.2,"accC":4.5,"tcN":30,"tcC":65,"restN":20,"restC":60,"possible":30,"crash":65,"minInd":3,"accRange":16,"gyrRange":2000,"rate":100,"alpha":0.980,"mount":"+X","up":"+Z","level":0,"cal":1}
+870821	{"t":"state","st":"SAFE","prev":"SAFE","why":"boot","inc":0,"type":"AUTO","cd":0,"ms":870821}
+870821	{"t":"tel","ms":870821,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+870921	{"t":"tel","ms":870921,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+871021	{"t":"tel","ms":871021,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+871121	{"t":"tel","ms":871121,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+871221	{"t":"tel","ms":871221,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+871321	{"t":"tel","ms":871321,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+871421	{"t":"tel","ms":871421,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+871521	{"t":"tel","ms":871521,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+871621	{"t":"tel","ms":871621,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+871721	{"t":"tel","ms":871721,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+871821	{"t":"tel","ms":871821,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+871821	[IMU] Roll: 0.0° | Pitch: 0.0° | Acceleration: 1.00g | Angular velocity: 0°/s
+871821	[DETECTOR] Crash confidence: 0% | State: SAFE
+871921	{"t":"tel","ms":871921,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+872021	{"t":"tel","ms":872021,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+872121	{"t":"tel","ms":872121,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+872221	{"t":"tel","ms":872221,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+872321	{"t":"tel","ms":872321,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+872421	{"t":"tel","ms":872421,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+872521	{"t":"tel","ms":872521,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+872621	{"t":"tel","ms":872621,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+872721	{"t":"tel","ms":872721,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+872821	{"t":"tel","ms":872821,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+872921	{"t":"tel","ms":872921,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+873021	{"t":"tel","ms":873021,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+873121	{"t":"tel","ms":873121,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+873221	{"t":"tel","ms":873221,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+873321	{"t":"tel","ms":873321,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+873421	{"t":"tel","ms":873421,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+873521	{"t":"tel","ms":873521,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+873621	{"t":"tel","ms":873621,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+873721	{"t":"tel","ms":873721,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+873821	[TEST] SIMULATION 3: Simulated cornering up to 45 deg (26 s) - real sensor paused, real SOS disabled
+873821	{"t":"ack","cmd":"SIM","ok":1}
+873821	{"t":"tel","ms":873821,"st":"SAFE","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+873921	{"t":"tel","ms":873921,"st":"SAFE","r":-2.5,"p":0.3,"tl":2.5,"a":1.04,"ap":1.11,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+874021	{"t":"tel","ms":874021,"st":"SAFE","r":-2.2,"p":0.2,"tl":2.3,"a":1.02,"ap":1.16,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+874121	{"t":"tel","ms":874121,"st":"SAFE","r":-1.8,"p":-0.2,"tl":1.9,"a":1.08,"ap":1.11,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+874221	{"t":"tel","ms":874221,"st":"SAFE","r":-1.6,"p":-0.3,"tl":1.6,"a":0.94,"ap":1.14,"g":1,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+874321	{"t":"tel","ms":874321,"st":"SAFE","r":-1.4,"p":0.0,"tl":1.4,"a":1.12,"ap":1.12,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+874421	{"t":"tel","ms":874421,"st":"SAFE","r":-1.1,"p":0.5,"tl":1.2,"a":1.16,"ap":1.16,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+874521	{"t":"tel","ms":874521,"st":"SAFE","r":-0.8,"p":0.8,"tl":1.2,"a":0.87,"ap":1.14,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+874621	{"t":"tel","ms":874621,"st":"SAFE","r":-0.9,"p":0.6,"tl":1.1,"a":1.00,"ap":1.15,"g":1,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+874721	{"t":"tel","ms":874721,"st":"SAFE","r":-0.5,"p":0.1,"tl":0.5,"a":1.10,"ap":1.10,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+874821	{"t":"tel","ms":874821,"st":"SAFE","r":-0.5,"p":-0.3,"tl":0.5,"a":1.02,"ap":1.16,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+874921	{"t":"tel","ms":874921,"st":"SAFE","r":-0.3,"p":-0.6,"tl":0.7,"a":0.99,"ap":1.16,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+875021	{"t":"tel","ms":875021,"st":"SAFE","r":-0.3,"p":-0.5,"tl":0.5,"a":0.98,"ap":1.13,"g":2,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+875121	{"t":"tel","ms":875121,"st":"SAFE","r":-0.1,"p":-0.5,"tl":0.6,"a":0.96,"ap":1.13,"g":3,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+875221	{"t":"tel","ms":875221,"st":"SAFE","r":0.4,"p":-0.8,"tl":0.9,"a":1.08,"ap":1.15,"g":3,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+875321	{"t":"tel","ms":875321,"st":"SAFE","r":0.7,"p":-0.3,"tl":0.8,"a":0.96,"ap":1.10,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+875421	{"t":"tel","ms":875421,"st":"SAFE","r":0.9,"p":0.0,"tl":0.9,"a":1.04,"ap":1.22,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+875521	{"t":"tel","ms":875521,"st":"SAFE","r":0.7,"p":-0.4,"tl":0.8,"a":0.99,"ap":1.18,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+875621	{"t":"tel","ms":875621,"st":"SAFE","r":0.4,"p":-0.4,"tl":0.5,"a":1.08,"ap":1.16,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+875721	{"t":"tel","ms":875721,"st":"SAFE","r":0.1,"p":-0.2,"tl":0.2,"a":0.94,"ap":1.06,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+875821	{"t":"tel","ms":875821,"st":"SAFE","r":0.1,"p":-0.2,"tl":0.2,"a":0.95,"ap":1.11,"g":1,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+875921	{"t":"tel","ms":875921,"st":"SAFE","r":-0.5,"p":-0.4,"tl":0.7,"a":1.04,"ap":1.08,"g":7,"gp":10,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+876021	{"t":"tel","ms":876021,"st":"SAFE","r":-1.6,"p":-0.9,"tl":1.9,"a":0.94,"ap":1.19,"g":18,"gp":18,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+876121	{"t":"tel","ms":876121,"st":"SAFE","r":-3.3,"p":-0.8,"tl":3.4,"a":0.89,"ap":1.07,"g":25,"gp":26,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+876221	{"t":"tel","ms":876221,"st":"SAFE","r":-6.1,"p":-0.8,"tl":6.2,"a":1.01,"ap":1.14,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+876321	{"t":"tel","ms":876321,"st":"SAFE","r":-9.5,"p":-0.8,"tl":9.5,"a":1.09,"ap":1.18,"g":33,"gp":37,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+876421	{"t":"tel","ms":876421,"st":"SAFE","r":-13.2,"p":-0.8,"tl":13.2,"a":1.08,"ap":1.18,"g":38,"gp":42,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+876521	{"t":"tel","ms":876521,"st":"SAFE","r":-17.1,"p":-0.8,"tl":17.1,"a":1.05,"ap":1.17,"g":43,"gp":43,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+876621	{"t":"tel","ms":876621,"st":"SAFE","r":-21.2,"p":-0.7,"tl":21.2,"a":1.02,"ap":1.22,"g":41,"gp":46,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+876721	{"t":"tel","ms":876721,"st":"SAFE","r":-25.0,"p":-0.7,"tl":25.0,"a":1.24,"ap":1.24,"g":44,"gp":44,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+876821	{"t":"tel","ms":876821,"st":"SAFE","r":-28.7,"p":-0.6,"tl":28.7,"a":1.10,"ap":1.27,"g":43,"gp":44,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+876821	[IMU] Roll: -28.7° | Pitch: -0.6° | Acceleration: 1.10g | Angular velocity: 43°/s
+876821	[DETECTOR] Crash confidence: 0% | State: SAFE
+876921	{"t":"tel","ms":876921,"st":"SAFE","r":-32.0,"p":-0.5,"tl":32.0,"a":1.13,"ap":1.26,"g":38,"gp":43,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+877021	{"t":"tel","ms":877021,"st":"SAFE","r":-34.8,"p":-0.5,"tl":34.8,"a":1.20,"ap":1.30,"g":35,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+877121	{"t":"tel","ms":877121,"st":"SAFE","r":-37.0,"p":-0.4,"tl":37.0,"a":1.31,"ap":1.31,"g":35,"gp":38,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+877221	{"t":"tel","ms":877221,"st":"SAFE","r":-38.5,"p":-0.3,"tl":38.5,"a":1.44,"ap":1.44,"g":32,"gp":36,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+877321	{"t":"tel","ms":877321,"st":"SAFE","r":-39.0,"p":-0.3,"tl":39.0,"a":1.30,"ap":1.39,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+877421	{"t":"tel","ms":877421,"st":"SAFE","r":-39.1,"p":-0.2,"tl":39.1,"a":1.36,"ap":1.48,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+877521	{"t":"tel","ms":877521,"st":"SAFE","r":-39.1,"p":-0.1,"tl":39.1,"a":1.25,"ap":1.47,"g":34,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+877621	{"t":"tel","ms":877621,"st":"SAFE","r":-39.1,"p":-0.1,"tl":39.1,"a":1.22,"ap":1.33,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+877721	{"t":"tel","ms":877721,"st":"SAFE","r":-39.1,"p":-0.1,"tl":39.1,"a":1.31,"ap":1.50,"g":32,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+877821	{"t":"tel","ms":877821,"st":"SAFE","r":-39.2,"p":-0.1,"tl":39.2,"a":1.45,"ap":1.46,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+877921	{"t":"tel","ms":877921,"st":"SAFE","r":-39.3,"p":0.0,"tl":39.3,"a":1.27,"ap":1.44,"g":32,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+878021	{"t":"tel","ms":878021,"st":"SAFE","r":-39.3,"p":0.0,"tl":39.3,"a":1.35,"ap":1.41,"g":30,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+878121	{"t":"tel","ms":878121,"st":"SAFE","r":-39.3,"p":0.1,"tl":39.3,"a":1.33,"ap":1.36,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+878221	{"t":"tel","ms":878221,"st":"SAFE","r":-39.4,"p":0.1,"tl":39.4,"a":1.27,"ap":1.40,"g":30,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+878321	{"t":"tel","ms":878321,"st":"SAFE","r":-39.4,"p":0.1,"tl":39.4,"a":1.28,"ap":1.45,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+878421	{"t":"tel","ms":878421,"st":"SAFE","r":-39.4,"p":0.1,"tl":39.4,"a":1.25,"ap":1.38,"g":34,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+878521	{"t":"tel","ms":878521,"st":"SAFE","r":-39.4,"p":0.1,"tl":39.4,"a":1.24,"ap":1.45,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+878621	{"t":"tel","ms":878621,"st":"SAFE","r":-39.5,"p":0.2,"tl":39.5,"a":1.41,"ap":1.41,"g":32,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+878721	{"t":"tel","ms":878721,"st":"SAFE","r":-39.6,"p":0.2,"tl":39.6,"a":1.26,"ap":1.44,"g":32,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+878821	{"t":"tel","ms":878821,"st":"SAFE","r":-39.6,"p":0.2,"tl":39.6,"a":1.43,"ap":1.43,"g":29,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+878921	{"t":"tel","ms":878921,"st":"SAFE","r":-39.7,"p":0.3,"tl":39.7,"a":1.18,"ap":1.36,"g":32,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+879021	{"t":"tel","ms":879021,"st":"SAFE","r":-39.7,"p":0.3,"tl":39.7,"a":1.33,"ap":1.36,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+879121	{"t":"tel","ms":879121,"st":"SAFE","r":-39.6,"p":0.3,"tl":39.6,"a":1.35,"ap":1.41,"g":31,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+879221	{"t":"tel","ms":879221,"st":"SAFE","r":-39.6,"p":0.3,"tl":39.6,"a":1.28,"ap":1.41,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+879321	{"t":"tel","ms":879321,"st":"SAFE","r":-39.7,"p":0.3,"tl":39.7,"a":1.28,"ap":1.42,"g":30,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+879421	{"t":"tel","ms":879421,"st":"SAFE","r":-39.7,"p":0.4,"tl":39.7,"a":1.22,"ap":1.45,"g":31,"gp":35,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+879521	{"t":"tel","ms":879521,"st":"SAFE","r":-39.9,"p":0.4,"tl":39.9,"a":1.39,"ap":1.44,"g":32,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+879621	{"t":"tel","ms":879621,"st":"SAFE","r":-40.1,"p":0.5,"tl":40.1,"a":1.34,"ap":1.41,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+879721	{"t":"tel","ms":879721,"st":"SAFE","r":-40.0,"p":0.5,"tl":40.0,"a":1.22,"ap":1.43,"g":31,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+879821	{"t":"tel","ms":879821,"st":"SAFE","r":-40.0,"p":0.5,"tl":40.0,"a":1.24,"ap":1.41,"g":30,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+879921	{"t":"tel","ms":879921,"st":"SAFE","r":-39.9,"p":0.4,"tl":39.9,"a":1.26,"ap":1.41,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+880021	{"t":"tel","ms":880021,"st":"SAFE","r":-40.0,"p":0.4,"tl":40.0,"a":1.28,"ap":1.46,"g":32,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+880121	{"t":"tel","ms":880121,"st":"SAFE","r":-40.1,"p":0.5,"tl":40.1,"a":1.21,"ap":1.39,"g":33,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+880221	{"t":"tel","ms":880221,"st":"SAFE","r":-40.2,"p":0.5,"tl":40.2,"a":1.40,"ap":1.42,"g":30,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+880321	{"t":"tel","ms":880321,"st":"SAFE","r":-40.2,"p":0.5,"tl":40.2,"a":1.20,"ap":1.44,"g":32,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+880421	{"t":"tel","ms":880421,"st":"SAFE","r":-40.2,"p":0.5,"tl":40.2,"a":1.34,"ap":1.34,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+880521	{"t":"tel","ms":880521,"st":"SAFE","r":-40.1,"p":0.4,"tl":40.1,"a":1.31,"ap":1.44,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+880621	{"t":"tel","ms":880621,"st":"SAFE","r":-40.1,"p":0.4,"tl":40.1,"a":1.20,"ap":1.40,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+880721	{"t":"tel","ms":880721,"st":"SAFE","r":-40.3,"p":0.5,"tl":40.3,"a":1.24,"ap":1.46,"g":30,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+880821	{"t":"tel","ms":880821,"st":"SAFE","r":-40.3,"p":0.5,"tl":40.3,"a":1.19,"ap":1.41,"g":32,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+880921	{"t":"tel","ms":880921,"st":"SAFE","r":-39.8,"p":0.5,"tl":39.8,"a":1.27,"ap":1.39,"g":32,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+881021	{"t":"tel","ms":881021,"st":"SAFE","r":-38.4,"p":0.5,"tl":38.4,"a":1.31,"ap":1.42,"g":35,"gp":35,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+881121	{"t":"tel","ms":881121,"st":"SAFE","r":-36.2,"p":0.5,"tl":36.2,"a":1.28,"ap":1.34,"g":38,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+881221	{"t":"tel","ms":881221,"st":"SAFE","r":-33.3,"p":0.4,"tl":33.3,"a":1.25,"ap":1.29,"g":41,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+881321	{"t":"tel","ms":881321,"st":"SAFE","r":-29.9,"p":0.5,"tl":29.9,"a":1.19,"ap":1.30,"g":39,"gp":42,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+881421	{"t":"tel","ms":881421,"st":"SAFE","r":-26.2,"p":0.4,"tl":26.2,"a":1.13,"ap":1.34,"g":43,"gp":43,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+881521	{"t":"tel","ms":881521,"st":"SAFE","r":-22.3,"p":0.3,"tl":22.3,"a":1.16,"ap":1.22,"g":41,"gp":45,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+881621	{"t":"tel","ms":881621,"st":"SAFE","r":-18.4,"p":0.3,"tl":18.4,"a":1.00,"ap":1.16,"g":39,"gp":44,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+881721	{"t":"tel","ms":881721,"st":"SAFE","r":-14.5,"p":0.3,"tl":14.5,"a":1.16,"ap":1.16,"g":40,"gp":42,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+881821	{"t":"tel","ms":881821,"st":"SAFE","r":-10.8,"p":0.2,"tl":10.8,"a":1.00,"ap":1.22,"g":34,"gp":40,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+881821	[IMU] Roll: -10.8° | Pitch: 0.2° | Acceleration: 1.00g | Angular velocity: 34°/s
+881821	[DETECTOR] Crash confidence: 0% | State: SAFE
+881921	{"t":"tel","ms":881921,"st":"SAFE","r":-7.5,"p":0.2,"tl":7.5,"a":0.94,"ap":1.12,"g":31,"gp":36,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+882021	{"t":"tel","ms":882021,"st":"SAFE","r":-4.4,"p":0.2,"tl":4.4,"a":0.93,"ap":1.09,"g":25,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+882121	{"t":"tel","ms":882121,"st":"SAFE","r":-1.7,"p":0.2,"tl":1.7,"a":1.01,"ap":1.08,"g":20,"gp":26,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+882221	{"t":"tel","ms":882221,"st":"SAFE","r":-0.5,"p":0.2,"tl":0.5,"a":1.11,"ap":1.11,"g":9,"gp":20,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+882321	{"t":"tel","ms":882321,"st":"SAFE","r":-0.6,"p":0.2,"tl":0.6,"a":0.94,"ap":1.21,"g":2,"gp":8,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+882421	{"t":"tel","ms":882421,"st":"SAFE","r":0.2,"p":0.1,"tl":0.2,"a":0.95,"ap":1.04,"g":10,"gp":10,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+882521	{"t":"tel","ms":882521,"st":"SAFE","r":1.3,"p":0.2,"tl":1.3,"a":1.03,"ap":1.19,"g":17,"gp":18,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+882621	{"t":"tel","ms":882621,"st":"SAFE","r":3.2,"p":0.0,"tl":3.2,"a":1.00,"ap":1.16,"g":26,"gp":26,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+882721	{"t":"tel","ms":882721,"st":"SAFE","r":6.0,"p":-0.2,"tl":6.0,"a":1.03,"ap":1.05,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+882821	{"t":"tel","ms":882821,"st":"SAFE","r":9.4,"p":-0.2,"tl":9.4,"a":1.16,"ap":1.17,"g":36,"gp":37,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+882921	{"t":"tel","ms":882921,"st":"SAFE","r":13.1,"p":-0.3,"tl":13.1,"a":1.02,"ap":1.15,"g":41,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+883021	{"t":"tel","ms":883021,"st":"SAFE","r":17.0,"p":-0.3,"tl":17.0,"a":1.16,"ap":1.16,"g":43,"gp":43,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+883121	{"t":"tel","ms":883121,"st":"SAFE","r":21.0,"p":-0.2,"tl":21.0,"a":1.09,"ap":1.17,"g":41,"gp":44,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+883221	{"t":"tel","ms":883221,"st":"SAFE","r":24.9,"p":-0.2,"tl":24.9,"a":1.13,"ap":1.21,"g":43,"gp":44,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+883321	{"t":"tel","ms":883321,"st":"SAFE","r":28.6,"p":-0.2,"tl":28.6,"a":1.09,"ap":1.18,"g":41,"gp":43,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+883421	{"t":"tel","ms":883421,"st":"SAFE","r":31.9,"p":-0.1,"tl":31.9,"a":1.10,"ap":1.29,"g":37,"gp":43,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+883521	{"t":"tel","ms":883521,"st":"SAFE","r":34.7,"p":0.0,"tl":34.7,"a":1.13,"ap":1.30,"g":38,"gp":40,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+883621	{"t":"tel","ms":883621,"st":"SAFE","r":36.9,"p":0.0,"tl":36.9,"a":1.25,"ap":1.36,"g":35,"gp":38,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+883721	{"t":"tel","ms":883721,"st":"SAFE","r":38.5,"p":0.1,"tl":38.5,"a":1.37,"ap":1.44,"g":33,"gp":35,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+883821	{"t":"tel","ms":883821,"st":"SAFE","r":39.0,"p":0.1,"tl":39.0,"a":1.16,"ap":1.44,"g":31,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+883921	{"t":"tel","ms":883921,"st":"SAFE","r":39.2,"p":0.1,"tl":39.2,"a":1.40,"ap":1.43,"g":33,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+884021	{"t":"tel","ms":884021,"st":"SAFE","r":39.3,"p":0.2,"tl":39.3,"a":1.38,"ap":1.42,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+884121	{"t":"tel","ms":884121,"st":"SAFE","r":39.4,"p":0.2,"tl":39.4,"a":1.36,"ap":1.36,"g":33,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+884221	{"t":"tel","ms":884221,"st":"SAFE","r":39.5,"p":0.3,"tl":39.5,"a":1.26,"ap":1.38,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+884321	{"t":"tel","ms":884321,"st":"SAFE","r":39.5,"p":0.2,"tl":39.5,"a":1.35,"ap":1.44,"g":32,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+884421	{"t":"tel","ms":884421,"st":"SAFE","r":39.5,"p":0.2,"tl":39.5,"a":1.49,"ap":1.49,"g":30,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+884521	{"t":"tel","ms":884521,"st":"SAFE","r":39.7,"p":0.3,"tl":39.7,"a":1.41,"ap":1.48,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+884621	{"t":"tel","ms":884621,"st":"SAFE","r":39.8,"p":0.3,"tl":39.8,"a":1.42,"ap":1.44,"g":32,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+884721	{"t":"tel","ms":884721,"st":"SAFE","r":39.9,"p":0.4,"tl":39.9,"a":1.33,"ap":1.33,"g":32,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+884821	{"t":"tel","ms":884821,"st":"SAFE","r":39.8,"p":0.4,"tl":39.8,"a":1.27,"ap":1.46,"g":32,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+884921	{"t":"tel","ms":884921,"st":"SAFE","r":39.8,"p":0.4,"tl":39.8,"a":1.38,"ap":1.52,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+885021	{"t":"tel","ms":885021,"st":"SAFE","r":39.9,"p":0.5,"tl":39.9,"a":1.38,"ap":1.40,"g":31,"gp":35,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+885121	{"t":"tel","ms":885121,"st":"SAFE","r":39.9,"p":0.4,"tl":39.9,"a":1.32,"ap":1.42,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+885221	{"t":"tel","ms":885221,"st":"SAFE","r":40.0,"p":0.5,"tl":40.0,"a":1.49,"ap":1.49,"g":32,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+885321	{"t":"tel","ms":885321,"st":"SAFE","r":40.0,"p":0.5,"tl":40.0,"a":1.27,"ap":1.42,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+885421	{"t":"tel","ms":885421,"st":"SAFE","r":40.1,"p":0.5,"tl":40.1,"a":1.32,"ap":1.43,"g":31,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+885521	{"t":"tel","ms":885521,"st":"SAFE","r":40.1,"p":0.5,"tl":40.1,"a":1.32,"ap":1.44,"g":32,"gp":35,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+885621	{"t":"tel","ms":885621,"st":"SAFE","r":40.1,"p":0.4,"tl":40.1,"a":1.31,"ap":1.33,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+885721	{"t":"tel","ms":885721,"st":"SAFE","r":40.0,"p":0.4,"tl":40.0,"a":1.25,"ap":1.46,"g":31,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+885821	{"t":"tel","ms":885821,"st":"SAFE","r":40.0,"p":0.4,"tl":40.0,"a":1.26,"ap":1.52,"g":33,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+885921	{"t":"tel","ms":885921,"st":"SAFE","r":40.0,"p":0.3,"tl":40.0,"a":1.46,"ap":1.46,"g":31,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+886021	{"t":"tel","ms":886021,"st":"SAFE","r":39.9,"p":0.3,"tl":39.9,"a":1.37,"ap":1.53,"g":32,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+886121	{"t":"tel","ms":886121,"st":"SAFE","r":39.9,"p":0.3,"tl":39.9,"a":1.38,"ap":1.38,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+886221	{"t":"tel","ms":886221,"st":"SAFE","r":39.9,"p":0.3,"tl":39.9,"a":1.37,"ap":1.37,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+886321	{"t":"tel","ms":886321,"st":"SAFE","r":39.8,"p":0.3,"tl":39.8,"a":1.33,"ap":1.40,"g":30,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+886421	{"t":"tel","ms":886421,"st":"SAFE","r":39.6,"p":0.2,"tl":39.6,"a":1.09,"ap":1.39,"g":31,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+886521	{"t":"tel","ms":886521,"st":"SAFE","r":39.8,"p":0.2,"tl":39.8,"a":1.47,"ap":1.47,"g":32,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+886621	{"t":"tel","ms":886621,"st":"SAFE","r":39.7,"p":0.2,"tl":39.7,"a":1.27,"ap":1.43,"g":31,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+886721	{"t":"tel","ms":886721,"st":"SAFE","r":39.7,"p":0.2,"tl":39.7,"a":1.34,"ap":1.37,"g":31,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+886821	{"t":"tel","ms":886821,"st":"SAFE","r":39.7,"p":0.2,"tl":39.7,"a":1.23,"ap":1.43,"g":31,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+886821	[IMU] Roll: 39.7° | Pitch: 0.2° | Acceleration: 1.23g | Angular velocity: 31°/s
+886821	[DETECTOR] Crash confidence: 0% | State: SAFE
+886921	{"t":"tel","ms":886921,"st":"SAFE","r":39.2,"p":0.2,"tl":39.2,"a":1.26,"ap":1.37,"g":30,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+887021	{"t":"tel","ms":887021,"st":"SAFE","r":37.8,"p":0.2,"tl":37.8,"a":1.35,"ap":1.35,"g":35,"gp":36,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+887121	{"t":"tel","ms":887121,"st":"SAFE","r":35.6,"p":0.2,"tl":35.6,"a":1.24,"ap":1.28,"g":38,"gp":38,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+887221	{"t":"tel","ms":887221,"st":"SAFE","r":32.8,"p":0.3,"tl":32.8,"a":1.25,"ap":1.32,"g":37,"gp":40,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+887321	{"t":"tel","ms":887321,"st":"SAFE","r":29.4,"p":0.3,"tl":29.4,"a":1.14,"ap":1.35,"g":41,"gp":43,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+887421	{"t":"tel","ms":887421,"st":"SAFE","r":25.8,"p":0.3,"tl":25.8,"a":1.15,"ap":1.25,"g":42,"gp":43,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+887521	{"t":"tel","ms":887521,"st":"SAFE","r":21.8,"p":0.4,"tl":21.8,"a":1.05,"ap":1.22,"g":42,"gp":45,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+887621	{"t":"tel","ms":887621,"st":"SAFE","r":17.8,"p":0.3,"tl":17.8,"a":1.04,"ap":1.21,"g":42,"gp":45,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+887721	{"t":"tel","ms":887721,"st":"SAFE","r":13.9,"p":0.4,"tl":14.0,"a":1.03,"ap":1.17,"g":38,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+887821	{"t":"tel","ms":887821,"st":"SAFE","r":10.2,"p":0.3,"tl":10.2,"a":1.02,"ap":1.03,"g":38,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+887921	{"t":"tel","ms":887921,"st":"SAFE","r":6.9,"p":0.4,"tl":6.9,"a":0.94,"ap":1.15,"g":33,"gp":36,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+888021	{"t":"tel","ms":888021,"st":"SAFE","r":3.9,"p":0.4,"tl":3.9,"a":0.96,"ap":1.09,"g":26,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+888121	{"t":"tel","ms":888121,"st":"SAFE","r":1.4,"p":0.6,"tl":1.5,"a":1.09,"ap":1.13,"g":19,"gp":27,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+888221	{"t":"tel","ms":888221,"st":"SAFE","r":-0.4,"p":0.7,"tl":0.8,"a":1.00,"ap":1.12,"g":12,"gp":19,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+888321	{"t":"tel","ms":888321,"st":"SAFE","r":-1.0,"p":0.8,"tl":1.3,"a":0.97,"ap":1.11,"g":2,"gp":10,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+888421	{"t":"tel","ms":888421,"st":"SAFE","r":-0.9,"p":0.7,"tl":1.2,"a":0.94,"ap":1.13,"g":9,"gp":9,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+888521	{"t":"tel","ms":888521,"st":"SAFE","r":-1.5,"p":0.8,"tl":1.7,"a":0.86,"ap":1.13,"g":13,"gp":13,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+888621	{"t":"tel","ms":888621,"st":"SAFE","r":-3.0,"p":0.5,"tl":3.0,"a":0.92,"ap":1.15,"g":20,"gp":21,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+888721	{"t":"tel","ms":888721,"st":"SAFE","r":-4.6,"p":0.5,"tl":4.6,"a":0.99,"ap":1.17,"g":23,"gp":23,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+888821	{"t":"tel","ms":888821,"st":"SAFE","r":-6.8,"p":0.4,"tl":6.8,"a":1.02,"ap":1.13,"g":27,"gp":27,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+888921	{"t":"tel","ms":888921,"st":"SAFE","r":-9.6,"p":0.5,"tl":9.7,"a":1.12,"ap":1.15,"g":30,"gp":31,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+889021	{"t":"tel","ms":889021,"st":"SAFE","r":-12.5,"p":0.5,"tl":12.6,"a":1.11,"ap":1.11,"g":31,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+889121	{"t":"tel","ms":889121,"st":"SAFE","r":-15.6,"p":0.5,"tl":15.6,"a":1.13,"ap":1.19,"g":33,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+889221	{"t":"tel","ms":889221,"st":"SAFE","r":-18.6,"p":0.5,"tl":18.6,"a":1.03,"ap":1.11,"g":33,"gp":35,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+889321	{"t":"tel","ms":889321,"st":"SAFE","r":-21.3,"p":0.6,"tl":21.3,"a":1.12,"ap":1.15,"g":29,"gp":33,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+889421	{"t":"tel","ms":889421,"st":"SAFE","r":-23.9,"p":0.7,"tl":23.9,"a":1.19,"ap":1.22,"g":29,"gp":32,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+889521	{"t":"tel","ms":889521,"st":"SAFE","r":-26.0,"p":0.7,"tl":26.0,"a":1.13,"ap":1.21,"g":27,"gp":29,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+889621	{"t":"tel","ms":889621,"st":"SAFE","r":-27.7,"p":0.7,"tl":27.7,"a":1.24,"ap":1.24,"g":27,"gp":28,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+889721	{"t":"tel","ms":889721,"st":"SAFE","r":-28.9,"p":0.8,"tl":28.9,"a":1.16,"ap":1.21,"g":23,"gp":26,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+889821	{"t":"tel","ms":889821,"st":"SAFE","r":-29.4,"p":0.8,"tl":29.4,"a":1.25,"ap":1.26,"g":23,"gp":23,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+889921	{"t":"tel","ms":889921,"st":"SAFE","r":-26.8,"p":0.9,"tl":26.8,"a":1.14,"ap":1.23,"g":52,"gp":52,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+889960	[DETECTOR] Abnormal motion detected - evaluating (trigger: lean-rate)
+889960	[STATE] MONITORING (crash detector)
+889960	{"t":"state","st":"MONITORING","prev":"SAFE","why":"crash detector","inc":0,"type":"AUTO","cd":0,"ms":889960}
+889960	{"t":"det","ev":"candidate","inc":0,"sim":1,"conf":0,"s":[0,0,0,0,0],"act":0,"pkA":1.20,"pkG":67,"pkT":24.5,"pkR":-24.4,"dT":5.0,"sus":0,"base":12.8,"rest":0.0,"set":0,"vert":0,"park":0,"post":0,"trig":4,"verdict":""}
+890021	{"t":"tel","ms":890021,"st":"MONITORING","r":-19.9,"p":1.0,"tl":19.9,"a":1.02,"ap":1.20,"g":87,"gp":87,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+890121	{"t":"tel","ms":890121,"st":"MONITORING","r":-10.1,"p":0.9,"tl":10.2,"a":1.10,"ap":1.18,"g":107,"gp":107,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+890221	{"t":"tel","ms":890221,"st":"MONITORING","r":0.9,"p":0.9,"tl":1.3,"a":1.02,"ap":1.13,"g":111,"gp":114,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+890321	{"t":"tel","ms":890321,"st":"MONITORING","r":11.9,"p":1.0,"tl":12.0,"a":1.11,"ap":1.11,"g":107,"gp":115,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+890421	{"t":"tel","ms":890421,"st":"MONITORING","r":21.4,"p":0.9,"tl":21.4,"a":1.20,"ap":1.20,"g":86,"gp":105,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+890521	{"t":"tel","ms":890521,"st":"MONITORING","r":28.1,"p":0.9,"tl":28.1,"a":1.17,"ap":1.22,"g":51,"gp":83,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+890621	{"t":"tel","ms":890621,"st":"MONITORING","r":30.5,"p":0.9,"tl":30.5,"a":1.17,"ap":1.27,"g":21,"gp":50,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+890721	{"t":"tel","ms":890721,"st":"MONITORING","r":29.1,"p":0.9,"tl":29.1,"a":1.25,"ap":1.25,"g":29,"gp":31,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+890821	{"t":"tel","ms":890821,"st":"MONITORING","r":25.7,"p":0.9,"tl":25.7,"a":1.16,"ap":1.34,"g":45,"gp":45,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+890921	{"t":"tel","ms":890921,"st":"MONITORING","r":20.9,"p":0.9,"tl":20.9,"a":1.01,"ap":1.19,"g":53,"gp":53,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+891021	{"t":"tel","ms":891021,"st":"MONITORING","r":15.4,"p":0.9,"tl":15.4,"a":1.11,"ap":1.11,"g":57,"gp":59,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+891121	{"t":"tel","ms":891121,"st":"MONITORING","r":10.0,"p":0.9,"tl":10.0,"a":1.07,"ap":1.15,"g":52,"gp":57,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+891221	{"t":"tel","ms":891221,"st":"MONITORING","r":5.3,"p":0.9,"tl":5.3,"a":0.85,"ap":1.16,"g":44,"gp":51,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+891321	{"t":"tel","ms":891321,"st":"MONITORING","r":1.6,"p":1.1,"tl":1.9,"a":0.99,"ap":1.11,"g":24,"gp":41,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+891421	{"t":"tel","ms":891421,"st":"MONITORING","r":0.2,"p":0.6,"tl":0.7,"a":1.01,"ap":1.05,"g":1,"gp":23,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+891521	{"t":"tel","ms":891521,"st":"MONITORING","r":0.1,"p":0.5,"tl":0.5,"a":0.92,"ap":1.06,"g":1,"gp":2,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+891621	{"t":"tel","ms":891621,"st":"MONITORING","r":0.2,"p":0.4,"tl":0.5,"a":1.13,"ap":1.14,"g":3,"gp":3,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+891721	{"t":"tel","ms":891721,"st":"MONITORING","r":-0.3,"p":0.4,"tl":0.5,"a":0.98,"ap":1.11,"g":1,"gp":4,"c":0,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+891790	[DETECTOR] Motion cleared - normal pattern (confidence 0%)
+891790	[STATE] SAFE (motion evaluated as normal)
+891790	{"t":"state","st":"SAFE","prev":"MONITORING","why":"motion evaluated as normal","inc":0,"type":"AUTO","cd":0,"ms":891790}
+891790	{"t":"det","ev":"verdict","inc":0,"sim":1,"conf":0,"s":[0,0,0,0,0],"act":0,"pkA":1.34,"pkG":115,"pkT":30.5,"pkR":30.5,"dT":28.4,"sus":0,"base":12.8,"rest":0.5,"set":0,"vert":0,"park":0,"post":0,"trig":4,"verdict":"DISMISSED"}
+891821	{"t":"tel","ms":891821,"st":"SAFE","r":-0.4,"p":0.2,"tl":0.5,"a":1.12,"ap":1.12,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+891821	[IMU] Roll: -0.4° | Pitch: 0.2° | Acceleration: 1.12g | Angular velocity: 2°/s
+891821	[DETECTOR] Crash confidence: 0% | State: SAFE
+891921	{"t":"tel","ms":891921,"st":"SAFE","r":-1.1,"p":-0.1,"tl":1.1,"a":0.97,"ap":1.10,"g":11,"gp":12,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+892021	{"t":"tel","ms":892021,"st":"SAFE","r":-2.4,"p":0.1,"tl":2.4,"a":1.19,"ap":1.19,"g":22,"gp":22,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+892121	{"t":"tel","ms":892121,"st":"SAFE","r":-4.4,"p":0.1,"tl":4.4,"a":0.97,"ap":1.10,"g":28,"gp":29,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+892221	{"t":"tel","ms":892221,"st":"SAFE","r":-7.5,"p":0.2,"tl":7.5,"a":1.10,"ap":1.16,"g":35,"gp":35,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+892321	{"t":"tel","ms":892321,"st":"SAFE","r":-11.3,"p":0.2,"tl":11.3,"a":0.96,"ap":1.12,"g":42,"gp":42,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+892421	{"t":"tel","ms":892421,"st":"SAFE","r":-15.5,"p":0.2,"tl":15.5,"a":1.16,"ap":1.16,"g":44,"gp":45,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+892521	{"t":"tel","ms":892521,"st":"SAFE","r":-19.9,"p":0.2,"tl":19.9,"a":0.95,"ap":1.18,"g":46,"gp":48,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+892621	{"t":"tel","ms":892621,"st":"SAFE","r":-24.4,"p":0.2,"tl":24.4,"a":1.14,"ap":1.14,"g":49,"gp":50,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+892721	{"t":"tel","ms":892721,"st":"SAFE","r":-28.8,"p":0.2,"tl":28.8,"a":1.24,"ap":1.25,"g":48,"gp":50,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+892821	{"t":"tel","ms":892821,"st":"SAFE","r":-32.9,"p":0.3,"tl":32.9,"a":1.22,"ap":1.30,"g":45,"gp":49,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+892921	{"t":"tel","ms":892921,"st":"SAFE","r":-36.6,"p":0.4,"tl":36.7,"a":1.30,"ap":1.47,"g":45,"gp":47,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+893021	{"t":"tel","ms":893021,"st":"SAFE","r":-39.9,"p":0.4,"tl":39.9,"a":1.22,"ap":1.39,"g":43,"gp":46,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+893121	{"t":"tel","ms":893121,"st":"SAFE","r":-42.3,"p":0.5,"tl":42.3,"a":1.36,"ap":1.42,"g":42,"gp":43,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+893221	{"t":"tel","ms":893221,"st":"SAFE","r":-43.9,"p":0.5,"tl":43.9,"a":1.39,"ap":1.57,"g":38,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+893321	{"t":"tel","ms":893321,"st":"SAFE","r":-44.5,"p":0.6,"tl":44.5,"a":1.27,"ap":1.59,"g":35,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+893421	{"t":"tel","ms":893421,"st":"SAFE","r":-44.6,"p":0.6,"tl":44.6,"a":1.49,"ap":1.55,"g":37,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+893521	{"t":"tel","ms":893521,"st":"SAFE","r":-44.7,"p":0.7,"tl":44.7,"a":1.35,"ap":1.51,"g":36,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+893621	{"t":"tel","ms":893621,"st":"SAFE","r":-44.7,"p":0.7,"tl":44.7,"a":1.39,"ap":1.57,"g":40,"gp":40,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+893721	{"t":"tel","ms":893721,"st":"SAFE","r":-44.7,"p":0.6,"tl":44.7,"a":1.20,"ap":1.55,"g":36,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+893821	{"t":"tel","ms":893821,"st":"SAFE","r":-44.6,"p":0.5,"tl":44.6,"a":1.54,"ap":1.56,"g":38,"gp":40,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+893921	{"t":"tel","ms":893921,"st":"SAFE","r":-44.7,"p":0.5,"tl":44.7,"a":1.31,"ap":1.54,"g":38,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+894021	{"t":"tel","ms":894021,"st":"SAFE","r":-44.8,"p":0.6,"tl":44.8,"a":1.51,"ap":1.51,"g":37,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+894121	{"t":"tel","ms":894121,"st":"SAFE","r":-44.9,"p":0.6,"tl":44.9,"a":1.44,"ap":1.45,"g":37,"gp":40,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+894221	{"t":"tel","ms":894221,"st":"SAFE","r":-44.9,"p":0.6,"tl":44.9,"a":1.36,"ap":1.55,"g":39,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+894321	{"t":"tel","ms":894321,"st":"SAFE","r":-45.0,"p":0.6,"tl":45.0,"a":1.43,"ap":1.52,"g":40,"gp":40,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+894421	{"t":"tel","ms":894421,"st":"SAFE","r":-44.9,"p":0.6,"tl":44.9,"a":1.42,"ap":1.54,"g":37,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+894521	{"t":"tel","ms":894521,"st":"SAFE","r":-45.0,"p":0.6,"tl":45.0,"a":1.37,"ap":1.48,"g":38,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+894621	{"t":"tel","ms":894621,"st":"SAFE","r":-45.2,"p":0.6,"tl":45.2,"a":1.39,"ap":1.62,"g":39,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+894721	{"t":"tel","ms":894721,"st":"SAFE","r":-45.2,"p":0.6,"tl":45.2,"a":1.42,"ap":1.46,"g":36,"gp":38,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+894821	{"t":"tel","ms":894821,"st":"SAFE","r":-45.3,"p":0.6,"tl":45.3,"a":1.37,"ap":1.55,"g":36,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+894921	{"t":"tel","ms":894921,"st":"SAFE","r":-45.3,"p":0.6,"tl":45.3,"a":1.32,"ap":1.52,"g":39,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+895021	{"t":"tel","ms":895021,"st":"SAFE","r":-45.4,"p":0.6,"tl":45.4,"a":1.40,"ap":1.52,"g":38,"gp":38,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+895121	{"t":"tel","ms":895121,"st":"SAFE","r":-45.4,"p":0.6,"tl":45.4,"a":1.42,"ap":1.59,"g":38,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+895221	{"t":"tel","ms":895221,"st":"SAFE","r":-45.4,"p":0.6,"tl":45.4,"a":1.46,"ap":1.48,"g":39,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+895321	{"t":"tel","ms":895321,"st":"SAFE","r":-45.4,"p":0.6,"tl":45.4,"a":1.50,"ap":1.50,"g":38,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+895421	{"t":"tel","ms":895421,"st":"SAFE","r":-45.3,"p":0.6,"tl":45.3,"a":1.40,"ap":1.57,"g":37,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+895521	{"t":"tel","ms":895521,"st":"SAFE","r":-45.3,"p":0.5,"tl":45.3,"a":1.42,"ap":1.65,"g":35,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+895621	{"t":"tel","ms":895621,"st":"SAFE","r":-45.3,"p":0.5,"tl":45.3,"a":1.39,"ap":1.54,"g":37,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+895721	{"t":"tel","ms":895721,"st":"SAFE","r":-45.4,"p":0.5,"tl":45.4,"a":1.28,"ap":1.56,"g":35,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+895821	{"t":"tel","ms":895821,"st":"SAFE","r":-45.4,"p":0.5,"tl":45.4,"a":1.43,"ap":1.54,"g":36,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+895921	{"t":"tel","ms":895921,"st":"SAFE","r":-45.4,"p":0.5,"tl":45.4,"a":1.41,"ap":1.58,"g":36,"gp":40,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+896021	{"t":"tel","ms":896021,"st":"SAFE","r":-45.3,"p":0.4,"tl":45.3,"a":1.36,"ap":1.53,"g":36,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+896121	{"t":"tel","ms":896121,"st":"SAFE","r":-45.3,"p":0.4,"tl":45.3,"a":1.42,"ap":1.56,"g":37,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+896221	{"t":"tel","ms":896221,"st":"SAFE","r":-45.3,"p":0.4,"tl":45.3,"a":1.38,"ap":1.52,"g":41,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+896321	{"t":"tel","ms":896321,"st":"SAFE","r":-45.3,"p":0.4,"tl":45.4,"a":1.40,"ap":1.60,"g":38,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+896421	{"t":"tel","ms":896421,"st":"SAFE","r":-44.6,"p":0.3,"tl":44.6,"a":1.47,"ap":1.52,"g":39,"gp":39,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":2,"bat":-1,"gps":0}
+896521	{"t":"tel","ms":896521,"st":"SAFE","r":-43.0,"p":0.3,"tl":43.0,"a":1.50,"ap":1.51,"g":40,"gp":42,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+896621	{"t":"tel","ms":896621,"st":"SAFE","r":-40.5,"p":0.3,"tl":40.5,"a":1.30,"ap":1.43,"g":44,"gp":44,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+896721	{"t":"tel","ms":896721,"st":"SAFE","r":-37.3,"p":0.3,"tl":37.3,"a":1.34,"ap":1.34,"g":44,"gp":46,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+896821	{"t":"tel","ms":896821,"st":"SAFE","r":-33.5,"p":0.3,"tl":33.5,"a":1.24,"ap":1.38,"g":48,"gp":48,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+896821	[IMU] Roll: -33.5° | Pitch: 0.3° | Acceleration: 1.24g | Angular velocity: 48°/s
+896821	[DETECTOR] Crash confidence: 0% | State: SAFE
+896921	{"t":"tel","ms":896921,"st":"SAFE","r":-29.3,"p":0.3,"tl":29.3,"a":1.21,"ap":1.27,"g":48,"gp":50,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+897021	{"t":"tel","ms":897021,"st":"SAFE","r":-24.8,"p":0.3,"tl":24.8,"a":0.96,"ap":1.25,"g":49,"gp":50,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+897121	{"t":"tel","ms":897121,"st":"SAFE","r":-20.3,"p":0.2,"tl":20.3,"a":1.09,"ap":1.18,"g":46,"gp":52,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+897221	{"t":"tel","ms":897221,"st":"SAFE","r":-16.0,"p":0.2,"tl":16.0,"a":0.99,"ap":1.19,"g":43,"gp":47,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+897321	{"t":"tel","ms":897321,"st":"SAFE","r":-11.9,"p":0.2,"tl":11.9,"a":1.01,"ap":1.16,"g":40,"gp":45,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+897421	{"t":"tel","ms":897421,"st":"SAFE","r":-8.1,"p":0.3,"tl":8.1,"a":1.02,"ap":1.25,"g":36,"gp":41,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+897521	{"t":"tel","ms":897521,"st":"SAFE","r":-4.9,"p":0.3,"tl":4.9,"a":0.94,"ap":1.09,"g":31,"gp":35,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+897621	{"t":"tel","ms":897621,"st":"SAFE","r":-2.3,"p":0.1,"tl":2.3,"a":1.03,"ap":1.09,"g":22,"gp":29,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+897721	{"t":"tel","ms":897721,"st":"SAFE","r":-0.4,"p":0.4,"tl":0.5,"a":1.10,"ap":1.17,"g":14,"gp":21,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+897821	{"t":"tel","ms":897821,"st":"SAFE","r":0.2,"p":0.7,"tl":0.8,"a":1.05,"ap":1.18,"g":4,"gp":12,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+897921	{"t":"tel","ms":897921,"st":"SAFE","r":-0.1,"p":0.5,"tl":0.5,"a":1.09,"ap":1.09,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+898021	{"t":"tel","ms":898021,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":0.96,"ap":1.15,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+898121	{"t":"tel","ms":898121,"st":"SAFE","r":-0.1,"p":0.1,"tl":0.1,"a":0.91,"ap":1.14,"g":3,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+898221	{"t":"tel","ms":898221,"st":"SAFE","r":-0.3,"p":0.6,"tl":0.7,"a":0.99,"ap":1.11,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+898321	{"t":"tel","ms":898321,"st":"SAFE","r":0.1,"p":0.8,"tl":0.8,"a":1.07,"ap":1.13,"g":1,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+898421	{"t":"tel","ms":898421,"st":"SAFE","r":0.5,"p":0.8,"tl":1.0,"a":0.99,"ap":1.07,"g":1,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+898521	{"t":"tel","ms":898521,"st":"SAFE","r":0.1,"p":0.5,"tl":0.5,"a":0.92,"ap":1.17,"g":1,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+898621	{"t":"tel","ms":898621,"st":"SAFE","r":0.4,"p":0.7,"tl":0.8,"a":0.90,"ap":1.14,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+898721	{"t":"tel","ms":898721,"st":"SAFE","r":0.4,"p":0.7,"tl":0.8,"a":0.99,"ap":1.13,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+898821	{"t":"tel","ms":898821,"st":"SAFE","r":0.5,"p":1.1,"tl":1.2,"a":1.08,"ap":1.08,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+898921	{"t":"tel","ms":898921,"st":"SAFE","r":0.4,"p":1.2,"tl":1.2,"a":0.88,"ap":1.03,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+899021	{"t":"tel","ms":899021,"st":"SAFE","r":0.5,"p":0.9,"tl":1.0,"a":0.95,"ap":1.09,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+899121	{"t":"tel","ms":899121,"st":"SAFE","r":0.9,"p":0.4,"tl":0.9,"a":1.01,"ap":1.15,"g":1,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+899221	{"t":"tel","ms":899221,"st":"SAFE","r":0.8,"p":0.0,"tl":0.8,"a":1.02,"ap":1.16,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+899321	{"t":"tel","ms":899321,"st":"SAFE","r":0.6,"p":-0.2,"tl":0.7,"a":1.00,"ap":1.14,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+899421	{"t":"tel","ms":899421,"st":"SAFE","r":0.6,"p":0.1,"tl":0.6,"a":0.96,"ap":1.18,"g":1,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+899521	{"t":"tel","ms":899521,"st":"SAFE","r":1.1,"p":0.2,"tl":1.1,"a":0.96,"ap":1.16,"g":4,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+899621	{"t":"tel","ms":899621,"st":"SAFE","r":1.0,"p":0.3,"tl":1.1,"a":1.07,"ap":1.07,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+899721	{"t":"tel","ms":899721,"st":"SAFE","r":0.9,"p":0.2,"tl":0.9,"a":0.97,"ap":1.11,"g":3,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":3,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+899821	[TEST] Simulation finished - real sensor resumed
+899821	{"t":"tel","ms":899821,"st":"SAFE","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+899921	{"t":"tel","ms":899921,"st":"SAFE","r":0.0,"p":-0.2,"tl":0.2,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+900021	{"t":"tel","ms":900021,"st":"SAFE","r":0.0,"p":-0.1,"tl":0.1,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+900121	{"t":"tel","ms":900121,"st":"SAFE","r":0.0,"p":-0.1,"tl":0.1,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+900221	{"t":"tel","ms":900221,"st":"SAFE","r":0.0,"p":-0.1,"tl":0.1,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+900321	[TEST] SIMULATION 5: Speed breaker (12 s) - real sensor paused, real SOS disabled
+900321	{"t":"ack","cmd":"SIM","ok":1}
+900321	{"t":"tel","ms":900321,"st":"SAFE","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+900421	{"t":"tel","ms":900421,"st":"SAFE","r":-1.0,"p":4.3,"tl":4.5,"a":0.86,"ap":1.16,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+900521	{"t":"tel","ms":900521,"st":"SAFE","r":-1.2,"p":3.5,"tl":3.7,"a":1.10,"ap":1.10,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+900621	{"t":"tel","ms":900621,"st":"SAFE","r":-1.2,"p":3.1,"tl":3.3,"a":1.09,"ap":1.15,"g":1,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+900721	{"t":"tel","ms":900721,"st":"SAFE","r":-1.2,"p":2.9,"tl":3.1,"a":0.94,"ap":1.16,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+900821	{"t":"tel","ms":900821,"st":"SAFE","r":-0.9,"p":2.7,"tl":2.8,"a":0.97,"ap":1.08,"g":0,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+900921	{"t":"tel","ms":900921,"st":"SAFE","r":-0.8,"p":2.2,"tl":2.3,"a":0.97,"ap":1.13,"g":4,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+901021	{"t":"tel","ms":901021,"st":"SAFE","r":-1.0,"p":1.7,"tl":2.0,"a":0.97,"ap":1.17,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+901121	{"t":"tel","ms":901121,"st":"SAFE","r":-0.8,"p":1.6,"tl":1.8,"a":0.96,"ap":1.15,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+901221	{"t":"tel","ms":901221,"st":"SAFE","r":-0.7,"p":1.2,"tl":1.4,"a":0.87,"ap":1.14,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+901321	{"t":"tel","ms":901321,"st":"SAFE","r":-0.4,"p":0.9,"tl":1.0,"a":0.98,"ap":1.16,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+901421	{"t":"tel","ms":901421,"st":"SAFE","r":-0.3,"p":0.6,"tl":0.7,"a":0.96,"ap":1.07,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+901521	{"t":"tel","ms":901521,"st":"SAFE","r":-0.3,"p":0.7,"tl":0.7,"a":1.00,"ap":1.18,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+901621	{"t":"tel","ms":901621,"st":"SAFE","r":-0.6,"p":0.4,"tl":0.7,"a":1.04,"ap":1.21,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+901721	{"t":"tel","ms":901721,"st":"SAFE","r":-0.4,"p":0.6,"tl":0.7,"a":1.11,"ap":1.14,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+901821	{"t":"tel","ms":901821,"st":"SAFE","r":-0.9,"p":0.3,"tl":1.0,"a":1.20,"ap":1.20,"g":4,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+901821	[IMU] Roll: -0.9° | Pitch: 0.3° | Acceleration: 1.20g | Angular velocity: 4°/s
+901821	[DETECTOR] Crash confidence: 0% | State: SAFE
+901921	{"t":"tel","ms":901921,"st":"SAFE","r":-1.3,"p":0.2,"tl":1.3,"a":1.02,"ap":1.02,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+902021	{"t":"tel","ms":902021,"st":"SAFE","r":-1.5,"p":0.1,"tl":1.5,"a":1.01,"ap":1.18,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+902121	{"t":"tel","ms":902121,"st":"SAFE","r":-1.2,"p":0.2,"tl":1.2,"a":1.04,"ap":1.09,"g":0,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+902221	{"t":"tel","ms":902221,"st":"SAFE","r":-0.5,"p":0.2,"tl":0.6,"a":1.02,"ap":1.15,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+902321	{"t":"tel","ms":902321,"st":"SAFE","r":0.2,"p":0.2,"tl":0.3,"a":0.97,"ap":1.20,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+902421	{"t":"tel","ms":902421,"st":"SAFE","r":0.5,"p":0.2,"tl":0.6,"a":0.96,"ap":1.09,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+902521	{"t":"tel","ms":902521,"st":"SAFE","r":0.4,"p":-0.1,"tl":0.4,"a":1.01,"ap":1.11,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+902621	{"t":"tel","ms":902621,"st":"SAFE","r":0.3,"p":-0.2,"tl":0.3,"a":1.07,"ap":1.11,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+902721	{"t":"tel","ms":902721,"st":"SAFE","r":0.3,"p":-0.6,"tl":0.7,"a":0.96,"ap":1.14,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+902821	{"t":"tel","ms":902821,"st":"SAFE","r":0.5,"p":-0.6,"tl":0.8,"a":1.01,"ap":1.09,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+902921	{"t":"tel","ms":902921,"st":"SAFE","r":0.5,"p":-0.4,"tl":0.6,"a":0.99,"ap":1.08,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+903021	{"t":"tel","ms":903021,"st":"SAFE","r":0.3,"p":-0.5,"tl":0.6,"a":0.99,"ap":1.16,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+903121	{"t":"tel","ms":903121,"st":"SAFE","r":0.2,"p":-0.1,"tl":0.2,"a":1.14,"ap":1.14,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+903221	{"t":"tel","ms":903221,"st":"SAFE","r":0.2,"p":0.0,"tl":0.3,"a":1.04,"ap":1.13,"g":1,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+903321	{"t":"tel","ms":903321,"st":"SAFE","r":0.3,"p":0.1,"tl":0.3,"a":1.11,"ap":1.16,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+903421	{"t":"tel","ms":903421,"st":"SAFE","r":0.4,"p":-0.1,"tl":0.4,"a":1.04,"ap":1.16,"g":4,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+903521	{"t":"tel","ms":903521,"st":"SAFE","r":0.3,"p":-0.2,"tl":0.4,"a":1.13,"ap":1.13,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+903621	{"t":"tel","ms":903621,"st":"SAFE","r":-0.1,"p":-0.6,"tl":0.6,"a":1.02,"ap":1.14,"g":2,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+903721	{"t":"tel","ms":903721,"st":"SAFE","r":-0.2,"p":-1.1,"tl":1.1,"a":0.90,"ap":1.16,"g":0,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+903821	{"t":"tel","ms":903821,"st":"SAFE","r":-0.3,"p":-1.1,"tl":1.2,"a":0.92,"ap":1.12,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+903921	{"t":"tel","ms":903921,"st":"SAFE","r":-0.5,"p":-1.5,"tl":1.5,"a":0.96,"ap":1.18,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+904021	{"t":"tel","ms":904021,"st":"SAFE","r":-0.1,"p":-2.9,"tl":2.9,"a":1.02,"ap":1.15,"g":2,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+904121	{"t":"tel","ms":904121,"st":"SAFE","r":0.0,"p":-5.1,"tl":5.1,"a":1.04,"ap":1.17,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+904221	{"t":"tel","ms":904221,"st":"SAFE","r":-0.3,"p":-6.6,"tl":6.6,"a":0.95,"ap":1.11,"g":4,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+904321	{"t":"tel","ms":904321,"st":"SAFE","r":-0.2,"p":-4.8,"tl":4.8,"a":0.97,"ap":1.09,"g":35,"gp":40,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+904350	[DETECTOR] Abnormal motion detected - evaluating (trigger: acceleration)
+904350	[STATE] MONITORING (crash detector)
+904350	{"t":"state","st":"MONITORING","prev":"SAFE","why":"crash detector","inc":0,"type":"AUTO","cd":0,"ms":904350}
+904350	{"t":"det","ev":"candidate","inc":0,"sim":1,"conf":2,"s":[0,0,12,0,0],"act":0,"pkA":2.73,"pkG":34,"pkT":3.8,"pkR":-0.2,"dT":2.8,"sus":0,"base":0.4,"rest":0.0,"set":0,"vert":1,"park":0,"post":0,"trig":1,"verdict":""}
+904421	{"t":"tel","ms":904421,"st":"MONITORING","r":-0.2,"p":-2.1,"tl":2.2,"a":0.93,"ap":3.02,"g":16,"gp":36,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+904521	{"t":"tel","ms":904521,"st":"MONITORING","r":-0.2,"p":-2.1,"tl":2.1,"a":0.72,"ap":0.92,"g":16,"gp":16,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+904621	{"t":"tel","ms":904621,"st":"MONITORING","r":0.0,"p":-4.6,"tl":4.6,"a":0.99,"ap":1.16,"g":38,"gp":38,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+904721	{"t":"tel","ms":904721,"st":"MONITORING","r":-0.1,"p":-5.6,"tl":5.6,"a":1.02,"ap":1.15,"g":12,"gp":39,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+904821	{"t":"tel","ms":904821,"st":"MONITORING","r":0.0,"p":-8.1,"tl":8.1,"a":2.58,"ap":2.76,"g":21,"gp":33,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+904921	{"t":"tel","ms":904921,"st":"MONITORING","r":0.0,"p":-9.1,"tl":9.1,"a":0.56,"ap":2.32,"g":0,"gp":21,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+905021	{"t":"tel","ms":905021,"st":"MONITORING","r":0.0,"p":-7.8,"tl":7.8,"a":1.00,"ap":1.08,"g":22,"gp":22,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+905121	{"t":"tel","ms":905121,"st":"MONITORING","r":-0.1,"p":-4.7,"tl":4.7,"a":1.07,"ap":1.11,"g":19,"gp":34,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+905221	{"t":"tel","ms":905221,"st":"MONITORING","r":0.1,"p":-3.7,"tl":3.7,"a":0.93,"ap":1.17,"g":1,"gp":3,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+905321	{"t":"tel","ms":905321,"st":"MONITORING","r":0.0,"p":-2.9,"tl":2.9,"a":0.87,"ap":1.12,"g":2,"gp":3,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+905421	{"t":"tel","ms":905421,"st":"MONITORING","r":0.1,"p":-2.5,"tl":2.5,"a":1.03,"ap":1.14,"g":3,"gp":4,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+905521	{"t":"tel","ms":905521,"st":"MONITORING","r":0.1,"p":-2.4,"tl":2.4,"a":0.94,"ap":1.04,"g":1,"gp":4,"c":3,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+905620	[DETECTOR] Motion cleared - normal pattern (confidence 3%, vertical impact = road bump)
+905620	[STATE] SAFE (motion evaluated as normal)
+905620	{"t":"state","st":"SAFE","prev":"MONITORING","why":"motion evaluated as normal","inc":0,"type":"AUTO","cd":0,"ms":905620}
+905620	{"t":"det","ev":"verdict","inc":0,"sim":1,"conf":3,"s":[0,0,18,0,0],"act":0,"pkA":3.02,"pkG":39,"pkT":9.1,"pkR":0.0,"dT":7.1,"sus":0,"base":0.4,"rest":2.2,"set":0,"vert":1,"park":0,"post":0,"trig":1,"verdict":"DISMISSED"}
+905621	{"t":"tel","ms":905621,"st":"SAFE","r":-0.1,"p":-2.2,"tl":2.2,"a":0.98,"ap":1.11,"g":3,"gp":4,"c":3,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+905721	{"t":"tel","ms":905721,"st":"SAFE","r":-0.1,"p":-1.8,"tl":1.8,"a":0.90,"ap":1.06,"g":3,"gp":3,"c":2,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+905821	{"t":"tel","ms":905821,"st":"SAFE","r":-0.3,"p":-0.9,"tl":1.0,"a":1.08,"ap":1.09,"g":2,"gp":3,"c":2,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+905921	{"t":"tel","ms":905921,"st":"SAFE","r":-0.5,"p":-0.9,"tl":1.0,"a":1.02,"ap":1.19,"g":3,"gp":3,"c":1,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+906021	{"t":"tel","ms":906021,"st":"SAFE","r":-0.7,"p":-0.5,"tl":0.8,"a":1.01,"ap":1.13,"g":2,"gp":4,"c":1,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+906121	{"t":"tel","ms":906121,"st":"SAFE","r":-0.6,"p":-0.4,"tl":0.7,"a":0.85,"ap":1.11,"g":1,"gp":4,"c":1,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+906221	{"t":"tel","ms":906221,"st":"SAFE","r":-0.5,"p":0.0,"tl":0.5,"a":0.83,"ap":1.15,"g":2,"gp":3,"c":1,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+906321	{"t":"tel","ms":906321,"st":"SAFE","r":-0.7,"p":0.3,"tl":0.7,"a":0.86,"ap":1.07,"g":2,"gp":3,"c":1,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+906421	{"t":"tel","ms":906421,"st":"SAFE","r":-0.5,"p":0.0,"tl":0.5,"a":1.03,"ap":1.11,"g":2,"gp":3,"c":1,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+906521	{"t":"tel","ms":906521,"st":"SAFE","r":-0.3,"p":0.1,"tl":0.3,"a":1.06,"ap":1.06,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+906621	{"t":"tel","ms":906621,"st":"SAFE","r":-0.6,"p":0.4,"tl":0.7,"a":1.02,"ap":1.09,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+906721	{"t":"tel","ms":906721,"st":"SAFE","r":-0.7,"p":0.5,"tl":0.8,"a":1.12,"ap":1.12,"g":2,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+906821	{"t":"tel","ms":906821,"st":"SAFE","r":-0.4,"p":0.5,"tl":0.7,"a":0.89,"ap":1.10,"g":2,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+906821	[IMU] Roll: -0.4° | Pitch: 0.5° | Acceleration: 0.89g | Angular velocity: 2°/s
+906821	[DETECTOR] Crash confidence: 0% | State: SAFE
+906921	{"t":"tel","ms":906921,"st":"SAFE","r":-0.7,"p":0.5,"tl":0.8,"a":0.85,"ap":1.13,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+907021	{"t":"tel","ms":907021,"st":"SAFE","r":-0.8,"p":0.3,"tl":0.9,"a":0.95,"ap":1.13,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+907121	{"t":"tel","ms":907121,"st":"SAFE","r":-0.5,"p":0.4,"tl":0.6,"a":0.96,"ap":1.08,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+907221	{"t":"tel","ms":907221,"st":"SAFE","r":-0.6,"p":0.1,"tl":0.6,"a":0.92,"ap":1.14,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+907321	{"t":"tel","ms":907321,"st":"SAFE","r":-0.8,"p":0.0,"tl":0.8,"a":0.97,"ap":1.14,"g":4,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+907421	{"t":"tel","ms":907421,"st":"SAFE","r":-0.8,"p":0.2,"tl":0.8,"a":1.03,"ap":1.08,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+907521	{"t":"tel","ms":907521,"st":"SAFE","r":-1.0,"p":-0.1,"tl":1.0,"a":1.13,"ap":1.19,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+907621	{"t":"tel","ms":907621,"st":"SAFE","r":-0.6,"p":-0.2,"tl":0.7,"a":1.06,"ap":1.12,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+907721	{"t":"tel","ms":907721,"st":"SAFE","r":-0.3,"p":-0.5,"tl":0.6,"a":0.91,"ap":1.18,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+907821	{"t":"tel","ms":907821,"st":"SAFE","r":-0.1,"p":-0.5,"tl":0.5,"a":1.13,"ap":1.13,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+907921	{"t":"tel","ms":907921,"st":"SAFE","r":-0.5,"p":-0.5,"tl":0.7,"a":1.09,"ap":1.13,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+908021	{"t":"tel","ms":908021,"st":"SAFE","r":-1.0,"p":-0.8,"tl":1.3,"a":0.95,"ap":1.14,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+908121	{"t":"tel","ms":908121,"st":"SAFE","r":-1.0,"p":-1.0,"tl":1.5,"a":0.95,"ap":1.11,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+908221	{"t":"tel","ms":908221,"st":"SAFE","r":-1.0,"p":-1.0,"tl":1.4,"a":0.98,"ap":1.09,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+908321	{"t":"tel","ms":908321,"st":"SAFE","r":-0.7,"p":-1.1,"tl":1.3,"a":0.93,"ap":1.12,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+908421	{"t":"tel","ms":908421,"st":"SAFE","r":-0.6,"p":-0.8,"tl":1.0,"a":0.95,"ap":1.16,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+908521	{"t":"tel","ms":908521,"st":"SAFE","r":-0.7,"p":-0.6,"tl":0.9,"a":0.88,"ap":1.12,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+908621	{"t":"tel","ms":908621,"st":"SAFE","r":-0.6,"p":-0.7,"tl":0.9,"a":1.12,"ap":1.18,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+908721	{"t":"tel","ms":908721,"st":"SAFE","r":-0.2,"p":-0.5,"tl":0.5,"a":1.03,"ap":1.06,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+908821	{"t":"tel","ms":908821,"st":"SAFE","r":-0.5,"p":0.0,"tl":0.5,"a":0.86,"ap":1.11,"g":1,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+908921	{"t":"tel","ms":908921,"st":"SAFE","r":-0.2,"p":0.0,"tl":0.2,"a":0.99,"ap":1.19,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+909021	{"t":"tel","ms":909021,"st":"SAFE","r":-0.1,"p":-0.3,"tl":0.3,"a":1.03,"ap":1.13,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+909121	{"t":"tel","ms":909121,"st":"SAFE","r":-0.1,"p":-0.4,"tl":0.4,"a":0.93,"ap":1.14,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+909221	{"t":"tel","ms":909221,"st":"SAFE","r":-0.2,"p":-0.4,"tl":0.5,"a":1.02,"ap":1.08,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+909321	{"t":"tel","ms":909321,"st":"SAFE","r":-0.3,"p":-0.3,"tl":0.4,"a":1.08,"ap":1.15,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+909421	{"t":"tel","ms":909421,"st":"SAFE","r":-0.2,"p":-0.2,"tl":0.3,"a":0.95,"ap":1.15,"g":5,"gp":5,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+909521	{"t":"tel","ms":909521,"st":"SAFE","r":0.2,"p":-0.3,"tl":0.3,"a":1.05,"ap":1.11,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+909621	{"t":"tel","ms":909621,"st":"SAFE","r":0.1,"p":-0.1,"tl":0.2,"a":0.96,"ap":1.15,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+909721	{"t":"tel","ms":909721,"st":"SAFE","r":0.4,"p":-0.2,"tl":0.4,"a":1.01,"ap":1.08,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+909821	{"t":"tel","ms":909821,"st":"SAFE","r":0.4,"p":-0.1,"tl":0.4,"a":1.04,"ap":1.13,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+909921	{"t":"tel","ms":909921,"st":"SAFE","r":0.6,"p":0.2,"tl":0.7,"a":1.06,"ap":1.18,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+910021	{"t":"tel","ms":910021,"st":"SAFE","r":0.7,"p":0.1,"tl":0.7,"a":0.87,"ap":1.12,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+910121	{"t":"tel","ms":910121,"st":"SAFE","r":0.7,"p":0.0,"tl":0.7,"a":0.84,"ap":1.06,"g":1,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+910221	{"t":"tel","ms":910221,"st":"SAFE","r":0.3,"p":-0.1,"tl":0.3,"a":0.91,"ap":1.09,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+910321	{"t":"tel","ms":910321,"st":"SAFE","r":0.0,"p":0.1,"tl":0.1,"a":1.08,"ap":1.15,"g":2,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+910421	{"t":"tel","ms":910421,"st":"SAFE","r":0.2,"p":0.4,"tl":0.4,"a":0.98,"ap":1.16,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+910521	{"t":"tel","ms":910521,"st":"SAFE","r":0.6,"p":0.5,"tl":0.8,"a":1.13,"ap":1.13,"g":5,"gp":5,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+910621	{"t":"tel","ms":910621,"st":"SAFE","r":0.2,"p":0.5,"tl":0.5,"a":0.93,"ap":1.08,"g":2,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+910721	{"t":"tel","ms":910721,"st":"SAFE","r":-0.2,"p":0.5,"tl":0.5,"a":1.02,"ap":1.08,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+910821	{"t":"tel","ms":910821,"st":"SAFE","r":0.3,"p":0.6,"tl":0.6,"a":0.95,"ap":1.16,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+910921	{"t":"tel","ms":910921,"st":"SAFE","r":0.3,"p":0.3,"tl":0.4,"a":1.00,"ap":1.15,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+911021	{"t":"tel","ms":911021,"st":"SAFE","r":-0.3,"p":-0.3,"tl":0.4,"a":0.88,"ap":1.14,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+911121	{"t":"tel","ms":911121,"st":"SAFE","r":-0.3,"p":-0.1,"tl":0.3,"a":0.92,"ap":1.07,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+911221	{"t":"tel","ms":911221,"st":"SAFE","r":-0.1,"p":0.0,"tl":0.1,"a":1.09,"ap":1.11,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+911321	{"t":"tel","ms":911321,"st":"SAFE","r":-0.3,"p":-0.1,"tl":0.4,"a":0.85,"ap":1.05,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+911421	{"t":"tel","ms":911421,"st":"SAFE","r":-0.5,"p":-0.2,"tl":0.5,"a":0.84,"ap":1.11,"g":2,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+911521	{"t":"tel","ms":911521,"st":"SAFE","r":-0.6,"p":0.2,"tl":0.6,"a":1.13,"ap":1.16,"g":1,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+911621	{"t":"tel","ms":911621,"st":"SAFE","r":-0.4,"p":0.1,"tl":0.4,"a":0.97,"ap":1.08,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+911721	{"t":"tel","ms":911721,"st":"SAFE","r":-0.2,"p":0.0,"tl":0.2,"a":0.89,"ap":1.06,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+911821	{"t":"tel","ms":911821,"st":"SAFE","r":0.1,"p":0.2,"tl":0.3,"a":1.00,"ap":1.13,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+911821	[IMU] Roll: 0.1° | Pitch: 0.2° | Acceleration: 1.00g | Angular velocity: 2°/s
+911821	[DETECTOR] Crash confidence: 0% | State: SAFE
+911921	{"t":"tel","ms":911921,"st":"SAFE","r":-0.1,"p":0.1,"tl":0.1,"a":0.93,"ap":1.13,"g":1,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+912021	{"t":"tel","ms":912021,"st":"SAFE","r":-0.3,"p":0.1,"tl":0.3,"a":0.90,"ap":1.10,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+912121	{"t":"tel","ms":912121,"st":"SAFE","r":-0.6,"p":-0.2,"tl":0.6,"a":1.01,"ap":1.12,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+912221	{"t":"tel","ms":912221,"st":"SAFE","r":-0.8,"p":-0.1,"tl":0.8,"a":1.08,"ap":1.09,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":5,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+912321	[TEST] Simulation finished - real sensor resumed
+912321	{"t":"tel","ms":912321,"st":"SAFE","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+912421	{"t":"tel","ms":912421,"st":"SAFE","r":-0.1,"p":0.1,"tl":0.1,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+912521	{"t":"tel","ms":912521,"st":"SAFE","r":-0.1,"p":0.1,"tl":0.1,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+912621	{"t":"tel","ms":912621,"st":"SAFE","r":-0.1,"p":0.1,"tl":0.1,"a":0.99,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+912721	{"t":"tel","ms":912721,"st":"SAFE","r":-0.1,"p":0.1,"tl":0.1,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+912821	[TEST] SIMULATION 7: Crash-like combined motion (low-side) (16 s) - real sensor paused, real SOS disabled
+912821	{"t":"ack","cmd":"SIM","ok":1}
+912821	{"t":"tel","ms":912821,"st":"SAFE","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":0,"bat":-1,"gps":0}
+912921	{"t":"tel","ms":912921,"st":"SAFE","r":-6.6,"p":3.0,"tl":7.3,"a":0.90,"ap":1.11,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+913021	{"t":"tel","ms":913021,"st":"SAFE","r":-5.1,"p":2.7,"tl":5.8,"a":0.92,"ap":1.14,"g":2,"gp":2,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+913121	{"t":"tel","ms":913121,"st":"SAFE","r":-4.1,"p":2.3,"tl":4.7,"a":1.17,"ap":1.17,"g":3,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+913221	{"t":"tel","ms":913221,"st":"SAFE","r":-3.4,"p":2.2,"tl":4.0,"a":0.98,"ap":1.06,"g":1,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+913321	{"t":"tel","ms":913321,"st":"SAFE","r":-2.8,"p":1.9,"tl":3.3,"a":1.00,"ap":1.17,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+913421	{"t":"tel","ms":913421,"st":"SAFE","r":-2.1,"p":1.8,"tl":2.7,"a":1.08,"ap":1.13,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+913521	{"t":"tel","ms":913521,"st":"SAFE","r":-1.6,"p":1.5,"tl":2.2,"a":0.96,"ap":1.14,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+913621	{"t":"tel","ms":913621,"st":"SAFE","r":-1.0,"p":1.3,"tl":1.6,"a":1.04,"ap":1.15,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+913721	{"t":"tel","ms":913721,"st":"SAFE","r":-0.6,"p":1.2,"tl":1.4,"a":0.95,"ap":1.12,"g":2,"gp":3,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+913821	{"t":"tel","ms":913821,"st":"SAFE","r":-0.3,"p":1.3,"tl":1.4,"a":1.06,"ap":1.10,"g":2,"gp":4,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+913921	{"t":"tel","ms":913921,"st":"SAFE","r":-1.4,"p":1.2,"tl":1.9,"a":1.06,"ap":1.18,"g":19,"gp":19,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+914021	{"t":"tel","ms":914021,"st":"SAFE","r":-3.8,"p":1.0,"tl":3.9,"a":1.03,"ap":1.17,"g":34,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+914121	{"t":"tel","ms":914121,"st":"SAFE","r":-7.7,"p":1.0,"tl":7.8,"a":1.11,"ap":1.13,"g":44,"gp":44,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+914221	{"t":"tel","ms":914221,"st":"SAFE","r":-12.6,"p":1.0,"tl":12.6,"a":1.06,"ap":1.13,"g":54,"gp":54,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+914321	{"t":"tel","ms":914321,"st":"SAFE","r":-17.8,"p":1.0,"tl":17.9,"a":0.95,"ap":1.05,"g":55,"gp":57,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+914421	{"t":"tel","ms":914421,"st":"SAFE","r":-23.0,"p":1.0,"tl":23.0,"a":0.96,"ap":1.21,"g":54,"gp":57,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+914521	{"t":"tel","ms":914521,"st":"SAFE","r":-27.8,"p":0.9,"tl":27.8,"a":1.04,"ap":1.28,"g":50,"gp":56,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+914621	{"t":"tel","ms":914621,"st":"SAFE","r":-31.7,"p":0.9,"tl":31.7,"a":1.17,"ap":1.31,"g":45,"gp":49,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+914721	{"t":"tel","ms":914721,"st":"SAFE","r":-34.4,"p":1.0,"tl":34.4,"a":1.37,"ap":1.37,"g":36,"gp":45,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":3,"bat":-1,"gps":0}
+914821	{"t":"tel","ms":914821,"st":"SAFE","r":-35.3,"p":0.9,"tl":35.3,"a":1.31,"ap":1.31,"g":36,"gp":38,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+914921	{"t":"tel","ms":914921,"st":"SAFE","r":-35.3,"p":0.9,"tl":35.3,"a":1.07,"ap":1.38,"g":33,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+915021	{"t":"tel","ms":915021,"st":"SAFE","r":-35.2,"p":0.9,"tl":35.2,"a":1.33,"ap":1.34,"g":34,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+915121	{"t":"tel","ms":915121,"st":"SAFE","r":-35.2,"p":0.8,"tl":35.2,"a":1.18,"ap":1.45,"g":30,"gp":36,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+915221	{"t":"tel","ms":915221,"st":"SAFE","r":-35.2,"p":0.8,"tl":35.2,"a":1.43,"ap":1.43,"g":33,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+915321	{"t":"tel","ms":915321,"st":"SAFE","r":-35.2,"p":0.8,"tl":35.2,"a":1.21,"ap":1.34,"g":34,"gp":35,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+915421	{"t":"tel","ms":915421,"st":"SAFE","r":-35.2,"p":0.8,"tl":35.2,"a":1.31,"ap":1.31,"g":34,"gp":35,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+915521	{"t":"tel","ms":915521,"st":"SAFE","r":-35.2,"p":0.7,"tl":35.2,"a":1.07,"ap":1.36,"g":34,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+915621	{"t":"tel","ms":915621,"st":"SAFE","r":-35.3,"p":0.7,"tl":35.3,"a":1.23,"ap":1.35,"g":32,"gp":35,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+915721	{"t":"tel","ms":915721,"st":"SAFE","r":-35.5,"p":0.8,"tl":35.5,"a":1.30,"ap":1.30,"g":33,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+915821	{"t":"tel","ms":915821,"st":"SAFE","r":-35.6,"p":0.8,"tl":35.6,"a":1.18,"ap":1.31,"g":32,"gp":34,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":0,"arm":1,"ref":2,"bat":-1,"gps":0}
+915860	[DETECTOR] Abnormal motion detected - evaluating (trigger: lean-rate)
+915860	[STATE] MONITORING (crash detector)
+915860	{"t":"state","st":"MONITORING","prev":"SAFE","why":"crash detector","inc":0,"type":"AUTO","cd":0,"ms":915860}
+915860	{"t":"det","ev":"candidate","inc":0,"sim":1,"conf":0,"s":[0,0,0,0,0],"act":0,"pkA":1.02,"pkG":86,"pkT":36.3,"pkR":-36.3,"dT":1.8,"sus":0,"base":35.3,"rest":0.0,"set":0,"vert":0,"park":0,"post":0,"trig":4,"verdict":""}
+915921	{"t":"tel","ms":915921,"st":"MONITORING","r":-45.6,"p":0.8,"tl":45.6,"a":1.10,"ap":1.33,"g":196,"gp":196,"c":10,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+916000	[DETECTOR] Possible crash - confidence 32% (still evaluating)
+916000	{"t":"inc","id":1001,"boot":1,"up":916000,"cur":1,"type":"SIM","out":"OPEN","flags":1,"conf":32,"acc":1.71,"gyr":251,"lean":62.9,"gpsOk":0}
+916000	[STATE] POSSIBLE_CRASH (crash detector)
+916000	{"t":"state","st":"POSSIBLE_CRASH","prev":"MONITORING","why":"crash detector","inc":1001,"type":"SIM","cd":0,"ms":916000}
+916000	{"t":"det","ev":"possible","inc":1001,"sim":1,"conf":32,"s":[90,82,0,10,0],"act":2,"pkA":1.71,"pkG":251,"pkT":62.9,"pkR":-62.9,"dT":28.5,"sus":130,"base":35.3,"rest":0.0,"set":0,"vert":1,"park":0,"post":1,"trig":4,"verdict":""}
+916021	{"t":"tel","ms":916021,"st":"POSSIBLE_CRASH","r":-67.3,"p":1.0,"tl":67.3,"a":0.72,"ap":1.71,"g":233,"gp":251,"c":35,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+916121	{"t":"tel","ms":916121,"st":"POSSIBLE_CRASH","r":-85.4,"p":1.7,"tl":85.4,"a":1.60,"ap":1.68,"g":146,"gp":231,"c":43,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+916221	{"t":"tel","ms":916221,"st":"POSSIBLE_CRASH","r":-87.2,"p":1.8,"tl":87.2,"a":1.30,"ap":7.20,"g":71,"gp":116,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+916321	{"t":"tel","ms":916321,"st":"POSSIBLE_CRASH","r":-85.8,"p":1.7,"tl":85.8,"a":0.55,"ap":1.70,"g":51,"gp":82,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+916421	{"t":"tel","ms":916421,"st":"POSSIBLE_CRASH","r":-86.7,"p":2.0,"tl":86.7,"a":0.62,"ap":4.06,"g":55,"gp":79,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+916521	{"t":"tel","ms":916521,"st":"POSSIBLE_CRASH","r":-86.7,"p":2.5,"tl":86.7,"a":1.42,"ap":1.69,"g":51,"gp":69,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+916621	{"t":"tel","ms":916621,"st":"POSSIBLE_CRASH","r":-85.1,"p":2.7,"tl":85.1,"a":1.43,"ap":1.89,"g":52,"gp":71,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+916721	{"t":"tel","ms":916721,"st":"POSSIBLE_CRASH","r":-82.8,"p":3.3,"tl":82.9,"a":1.22,"ap":1.98,"g":40,"gp":67,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+916821	{"t":"tel","ms":916821,"st":"POSSIBLE_CRASH","r":-81.5,"p":3.1,"tl":81.5,"a":1.19,"ap":1.82,"g":42,"gp":56,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+916821	[IMU] Roll: -81.5° | Pitch: 3.1° | Acceleration: 1.19g | Angular velocity: 42°/s
+916821	[DETECTOR] Crash confidence: 60% | State: POSSIBLE_CRASH | bike not upright
+916921	{"t":"tel","ms":916921,"st":"POSSIBLE_CRASH","r":-81.7,"p":3.3,"tl":81.8,"a":1.32,"ap":2.09,"g":46,"gp":46,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+917021	{"t":"tel","ms":917021,"st":"POSSIBLE_CRASH","r":-83.1,"p":3.1,"tl":83.2,"a":1.20,"ap":1.75,"g":35,"gp":52,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+917121	{"t":"tel","ms":917121,"st":"POSSIBLE_CRASH","r":-85.5,"p":3.2,"tl":85.5,"a":1.60,"ap":2.12,"g":59,"gp":59,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+917221	{"t":"tel","ms":917221,"st":"POSSIBLE_CRASH","r":-86.9,"p":3.5,"tl":86.9,"a":1.04,"ap":1.92,"g":35,"gp":44,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+917321	{"t":"tel","ms":917321,"st":"POSSIBLE_CRASH","r":-86.6,"p":3.5,"tl":86.6,"a":1.15,"ap":2.21,"g":43,"gp":49,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+917421	{"t":"tel","ms":917421,"st":"POSSIBLE_CRASH","r":-84.6,"p":3.5,"tl":84.6,"a":1.40,"ap":1.61,"g":41,"gp":45,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+917521	{"t":"tel","ms":917521,"st":"POSSIBLE_CRASH","r":-82.2,"p":3.9,"tl":82.2,"a":0.92,"ap":1.66,"g":39,"gp":50,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+917621	{"t":"tel","ms":917621,"st":"POSSIBLE_CRASH","r":-81.1,"p":4.3,"tl":81.1,"a":1.43,"ap":1.84,"g":13,"gp":42,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+917721	{"t":"tel","ms":917721,"st":"POSSIBLE_CRASH","r":-81.8,"p":3.9,"tl":81.8,"a":0.84,"ap":1.84,"g":16,"gp":40,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+917821	{"t":"tel","ms":917821,"st":"POSSIBLE_CRASH","r":-84.0,"p":3.9,"tl":84.0,"a":1.30,"ap":1.77,"g":33,"gp":47,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+917921	{"t":"tel","ms":917921,"st":"POSSIBLE_CRASH","r":-85.9,"p":4.0,"tl":86.0,"a":0.88,"ap":1.83,"g":17,"gp":44,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+918021	{"t":"tel","ms":918021,"st":"POSSIBLE_CRASH","r":-85.7,"p":3.8,"tl":85.7,"a":1.42,"ap":2.28,"g":33,"gp":33,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+918121	{"t":"tel","ms":918121,"st":"POSSIBLE_CRASH","r":-84.6,"p":3.7,"tl":84.6,"a":0.73,"ap":1.74,"g":22,"gp":31,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+918221	{"t":"tel","ms":918221,"st":"POSSIBLE_CRASH","r":-84.0,"p":3.7,"tl":84.0,"a":1.14,"ap":1.39,"g":9,"gp":30,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+918321	{"t":"tel","ms":918321,"st":"POSSIBLE_CRASH","r":-83.6,"p":3.6,"tl":83.6,"a":0.70,"ap":1.40,"g":8,"gp":20,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":3,"bat":-1,"gps":0}
+918421	{"t":"tel","ms":918421,"st":"POSSIBLE_CRASH","r":-83.2,"p":4.0,"tl":83.3,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+918521	{"t":"tel","ms":918521,"st":"POSSIBLE_CRASH","r":-83.4,"p":3.8,"tl":83.4,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+918621	{"t":"tel","ms":918621,"st":"POSSIBLE_CRASH","r":-83.5,"p":3.7,"tl":83.5,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":60,"ph":1,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+918721	{"t":"tel","ms":918721,"st":"POSSIBLE_CRASH","r":-83.6,"p":3.5,"tl":83.6,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":75,"ph":2,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+918821	{"t":"tel","ms":918821,"st":"POSSIBLE_CRASH","r":-83.7,"p":3.4,"tl":83.7,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":75,"ph":2,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+918921	{"t":"tel","ms":918921,"st":"POSSIBLE_CRASH","r":-83.8,"p":3.4,"tl":83.8,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":75,"ph":2,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+919021	{"t":"tel","ms":919021,"st":"POSSIBLE_CRASH","r":-83.8,"p":3.3,"tl":83.8,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":75,"ph":2,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+919121	{"t":"tel","ms":919121,"st":"POSSIBLE_CRASH","r":-83.9,"p":3.2,"tl":83.9,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":75,"ph":2,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+919221	{"t":"tel","ms":919221,"st":"POSSIBLE_CRASH","r":-83.9,"p":3.2,"tl":83.9,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":75,"ph":2,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+919321	{"t":"tel","ms":919321,"st":"POSSIBLE_CRASH","r":-83.9,"p":3.1,"tl":83.9,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":75,"ph":2,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+919421	{"t":"tel","ms":919421,"st":"POSSIBLE_CRASH","r":-84.0,"p":3.1,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":75,"ph":2,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+919521	{"t":"tel","ms":919521,"st":"POSSIBLE_CRASH","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":75,"ph":2,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+919621	{"t":"tel","ms":919621,"st":"POSSIBLE_CRASH","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":75,"ph":2,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":0,"ab":1,"arm":1,"ref":1,"bat":-1,"gps":0}
+919680	[DETECTOR] Evaluation: CRASH LIKELY | 5 of 5 indicators active
+919680	[DETECTOR] Lean: 88° (HIGH) - normal max 45°
+919680	[DETECTOR] Angular velocity: 251°/s (HIGH, 82%)
+919680	[DETECTOR] Acceleration spike: 7.2g (HIGH, 100%)
+919680	[DETECTOR] Orientation change: 54° in 0.5 s (HIGH, 67%)
+919680	[DETECTOR] Post-impact: resting at 84° (HIGH)
+919680	[DETECTOR] Crash confidence: 90%
+919680	{"t":"inc","id":1001,"boot":1,"up":916000,"cur":1,"type":"SIM","out":"OPEN","flags":3,"conf":90,"acc":7.20,"gyr":251,"lean":87.9,"gpsOk":0}
+919680	[STATE] CRASH_DETECTED (crash detector)
+919680	[EMERGENCY] POSSIBLE ACCIDENT - SOS in 10 s. Press the button or tap I'M OKAY in the app to cancel.
+919680	{"t":"state","st":"CRASH_DETECTED","prev":"POSSIBLE_CRASH","why":"crash detector","inc":1001,"type":"SIM","cd":10,"ms":919680}
+919680	{"t":"det","ev":"verdict","inc":1001,"sim":1,"conf":90,"s":[100,82,100,67,100],"act":5,"pkA":7.20,"pkG":251,"pkT":88.0,"pkR":-88.0,"dT":53.6,"sus":250,"base":35.3,"rest":84.0,"set":1,"vert":0,"park":0,"post":1,"trig":4,"verdict":"CRASH"}
+919680	[EMERGENCY] SOS in 10 s
+919721	{"t":"tel","ms":919721,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":83,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":10,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+919821	{"t":"tel","ms":919821,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":0.99,"ap":1.02,"g":0,"gp":0,"c":68,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":10,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+919921	{"t":"tel","ms":919921,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":55,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":10,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+920021	{"t":"tel","ms":920021,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":0.99,"ap":1.02,"g":0,"gp":0,"c":45,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":10,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+920121	{"t":"tel","ms":920121,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":37,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":10,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+920221	{"t":"tel","ms":920221,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":30,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":10,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+920321	{"t":"tel","ms":920321,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":25,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":10,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+920421	{"t":"tel","ms":920421,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":20,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":10,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+920521	{"t":"tel","ms":920521,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":16,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":10,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+920621	{"t":"tel","ms":920621,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":10,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+920680	[EMERGENCY] SOS in 9 s
+920721	{"t":"tel","ms":920721,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":9,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+920821	{"t":"tel","ms":920821,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":9,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+920921	{"t":"tel","ms":920921,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":9,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+921021	{"t":"tel","ms":921021,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":9,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+921121	{"t":"tel","ms":921121,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":0.99,"ap":1.00,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":9,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+921221	{"t":"tel","ms":921221,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":9,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+921321	{"t":"tel","ms":921321,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":9,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+921421	{"t":"tel","ms":921421,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":9,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+921521	{"t":"tel","ms":921521,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":9,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+921621	{"t":"tel","ms":921621,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":9,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+921680	[EMERGENCY] SOS in 8 s
+921721	{"t":"tel","ms":921721,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":8,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+921821	{"t":"tel","ms":921821,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":8,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+921821	[IMU] Roll: -84.0° | Pitch: 3.0° | Acceleration: 0.99g | Angular velocity: 0°/s
+921821	[DETECTOR] Crash confidence: 15% | State: CRASH_DETECTED | bike not upright | detection re-arms when upright
+921921	{"t":"tel","ms":921921,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":8,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+922021	{"t":"tel","ms":922021,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.1,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":8,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+922121	{"t":"tel","ms":922121,"st":"CRASH_DETECTED","r":-84.1,"p":3.0,"tl":84.1,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":8,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+922221	{"t":"tel","ms":922221,"st":"CRASH_DETECTED","r":-84.1,"p":3.1,"tl":84.1,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":8,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+922321	{"t":"tel","ms":922321,"st":"CRASH_DETECTED","r":-84.1,"p":3.1,"tl":84.1,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":8,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+922421	{"t":"tel","ms":922421,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":0.99,"ap":1.00,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":8,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+922521	{"t":"tel","ms":922521,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":8,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+922621	{"t":"tel","ms":922621,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":8,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+922680	[EMERGENCY] SOS in 7 s
+922721	{"t":"tel","ms":922721,"st":"CRASH_DETECTED","r":-84.1,"p":3.0,"tl":84.1,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":7,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+922821	{"t":"tel","ms":922821,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.1,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":7,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+922921	{"t":"tel","ms":922921,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":7,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+923021	{"t":"tel","ms":923021,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":7,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+923121	{"t":"tel","ms":923121,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":7,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+923221	{"t":"tel","ms":923221,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":7,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+923321	{"t":"tel","ms":923321,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":7,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+923421	{"t":"tel","ms":923421,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":7,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+923521	{"t":"tel","ms":923521,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":7,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+923621	{"t":"tel","ms":923621,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":7,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+923680	[EMERGENCY] SOS in 6 s
+923721	{"t":"tel","ms":923721,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":6,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+923821	{"t":"tel","ms":923821,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.02,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":6,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+923921	{"t":"tel","ms":923921,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":6,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+924021	{"t":"tel","ms":924021,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":6,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+924121	{"t":"tel","ms":924121,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":6,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+924221	{"t":"tel","ms":924221,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":6,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+924321	{"t":"tel","ms":924321,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":6,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+924421	{"t":"tel","ms":924421,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.1,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":6,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+924521	{"t":"tel","ms":924521,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":6,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+924621	{"t":"tel","ms":924621,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":6,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+924680	[EMERGENCY] SOS in 5 s
+924721	{"t":"tel","ms":924721,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":5,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+924821	{"t":"tel","ms":924821,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":5,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+924921	{"t":"tel","ms":924921,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":5,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+925021	{"t":"tel","ms":925021,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":5,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+925121	{"t":"tel","ms":925121,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":5,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+925221	{"t":"tel","ms":925221,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":5,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+925321	{"t":"tel","ms":925321,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.02,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":5,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+925421	{"t":"tel","ms":925421,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":5,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+925521	{"t":"tel","ms":925521,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":5,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+925621	{"t":"tel","ms":925621,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":5,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+925680	[EMERGENCY] SOS in 4 s
+925721	{"t":"tel","ms":925721,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":0.99,"ap":1.00,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":4,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+925821	{"t":"tel","ms":925821,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":4,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+925921	{"t":"tel","ms":925921,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.1,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":4,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+926021	{"t":"tel","ms":926021,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.1,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":4,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+926121	{"t":"tel","ms":926121,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":4,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+926221	{"t":"tel","ms":926221,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":4,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+926321	{"t":"tel","ms":926321,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":4,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+926421	{"t":"tel","ms":926421,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":4,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+926521	{"t":"tel","ms":926521,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":4,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+926621	{"t":"tel","ms":926621,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":4,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+926680	[EMERGENCY] SOS in 3 s
+926721	{"t":"tel","ms":926721,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":3,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+926821	{"t":"tel","ms":926821,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":3,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+926821	[IMU] Roll: -84.0° | Pitch: 3.1° | Acceleration: 1.01g | Angular velocity: 0°/s
+926821	[DETECTOR] Crash confidence: 15% | State: CRASH_DETECTED | bike not upright | detection re-arms when upright
+926921	{"t":"tel","ms":926921,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":3,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+927021	{"t":"tel","ms":927021,"st":"CRASH_DETECTED","r":-84.0,"p":3.1,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":3,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+927121	{"t":"tel","ms":927121,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":3,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+927221	{"t":"tel","ms":927221,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":3,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+927321	{"t":"tel","ms":927321,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":3,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+927421	{"t":"tel","ms":927421,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":3,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+927521	{"t":"tel","ms":927521,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":3,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+927621	{"t":"tel","ms":927621,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":3,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+927680	[EMERGENCY] SOS in 2 s
+927721	{"t":"tel","ms":927721,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":2,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+927821	{"t":"tel","ms":927821,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":2,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+927921	{"t":"tel","ms":927921,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":2,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+928021	{"t":"tel","ms":928021,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":2,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+928121	{"t":"tel","ms":928121,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":2,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+928221	{"t":"tel","ms":928221,"st":"CRASH_DETECTED","r":-84.1,"p":3.0,"tl":84.1,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":2,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+928321	{"t":"tel","ms":928321,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.1,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":2,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+928421	{"t":"tel","ms":928421,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":2,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+928521	{"t":"tel","ms":928521,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.1,"a":0.99,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":2,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+928621	{"t":"tel","ms":928621,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":2,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+928680	[EMERGENCY] SOS in 1 s
+928721	{"t":"tel","ms":928721,"st":"CRASH_DETECTED","r":-84.0,"p":3.0,"tl":84.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":15,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":7,"cd":1,"ab":1,"arm":0,"ref":1,"bat":-1,"gps":0}
+928821	[TEST] Simulation finished - real sensor resumed
+928821	{"t":"tel","ms":928821,"st":"CRASH_DETECTED","r":null,"p":null,"tl":null,"a":null,"ap":null,"g":null,"gp":null,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":1,"ab":1,"arm":1,"ref":0,"bat":-1,"gps":0}
+928921	{"t":"tel","ms":928921,"st":"CRASH_DETECTED","r":-0.2,"p":0.2,"tl":0.3,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":1,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+929021	{"t":"tel","ms":929021,"st":"CRASH_DETECTED","r":-0.2,"p":0.2,"tl":0.2,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":1,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+929121	{"t":"tel","ms":929121,"st":"CRASH_DETECTED","r":-0.1,"p":0.1,"tl":0.2,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":1,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+929221	{"t":"tel","ms":929221,"st":"CRASH_DETECTED","r":-0.1,"p":0.1,"tl":0.2,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":1,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+929321	{"t":"tel","ms":929321,"st":"CRASH_DETECTED","r":-0.1,"p":0.1,"tl":0.1,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":1,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+929421	{"t":"tel","ms":929421,"st":"CRASH_DETECTED","r":-0.1,"p":0.1,"tl":0.1,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":1,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+929521	{"t":"tel","ms":929521,"st":"CRASH_DETECTED","r":0.0,"p":0.1,"tl":0.1,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":1,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+929621	{"t":"tel","ms":929621,"st":"CRASH_DETECTED","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":1,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+929680	{"t":"inc","id":1001,"boot":1,"up":916000,"cur":1,"type":"SIM","out":"SOS","flags":11,"conf":90,"acc":7.20,"gyr":251,"lean":87.9,"gpsOk":0}
+929680	[SOS] Countdown expired - EMERGENCY ALERT for incident #1001 (confidence 90%)
+929680	[SOS] Location: LOCATION UNAVAILABLE (no GPS module installed)
+929680	[SOS] No GSM/SMS hardware on this device: alert is delivered through the app link
+929680	[SOS] SIMULATION - the app will NOT notify emergency contacts
+929680	[STATE] SOS_SENT (countdown expired)
+929680	{"t":"state","st":"SOS_SENT","prev":"CRASH_DETECTED","why":"countdown expired","inc":1001,"type":"SIM","cd":0,"ms":929680}
+929680	{"t":"sos","id":1001,"dev":"BSB-1A2B","sim":1,"conf":90,"boot":1,"up":916000,"acc":7.20,"gyr":251,"lean":87.9,"tx":1,"ms":929680,"resumed":0,"gps":0}
+929680	[SOS] Alert sent to app - waiting for confirmation
+929721	{"t":"tel","ms":929721,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+929821	{"t":"tel","ms":929821,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+929921	{"t":"tel","ms":929921,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+930021	{"t":"tel","ms":930021,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":0.99,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+930121	{"t":"tel","ms":930121,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+930221	{"t":"tel","ms":930221,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+930321	{"t":"tel","ms":930321,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+930421	{"t":"tel","ms":930421,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+930521	{"t":"tel","ms":930521,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+930621	{"t":"tel","ms":930621,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+930721	{"t":"tel","ms":930721,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+930821	{"t":"tel","ms":930821,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+930921	{"t":"tel","ms":930921,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+931021	{"t":"tel","ms":931021,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+931121	{"t":"tel","ms":931121,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+931221	{"t":"tel","ms":931221,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+931321	{"t":"tel","ms":931321,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+931421	{"t":"tel","ms":931421,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+931521	{"t":"tel","ms":931521,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+931621	{"t":"tel","ms":931621,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+931721	{"t":"tel","ms":931721,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+931821	{"t":"tel","ms":931821,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":0.99,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+931821	[IMU] Roll: 0.0° | Pitch: 0.0° | Acceleration: 0.99g | Angular velocity: 0°/s
+931821	[DETECTOR] Crash confidence: 0% | State: SOS_SENT
+931921	{"t":"tel","ms":931921,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+932021	{"t":"tel","ms":932021,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+932121	{"t":"tel","ms":932121,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+932221	{"t":"tel","ms":932221,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+932321	{"t":"tel","ms":932321,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+932421	{"t":"tel","ms":932421,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+932521	{"t":"tel","ms":932521,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+932621	{"t":"tel","ms":932621,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+932680	{"t":"sos","id":1001,"dev":"BSB-1A2B","sim":1,"conf":90,"boot":1,"up":916000,"acc":7.20,"gyr":251,"lean":87.9,"tx":2,"ms":932680,"resumed":0,"gps":0}
+932721	{"t":"tel","ms":932721,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+932821	{"t":"tel","ms":932821,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+932921	{"t":"tel","ms":932921,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+933021	{"t":"tel","ms":933021,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+933121	{"t":"tel","ms":933121,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+933221	{"t":"tel","ms":933221,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+933321	{"t":"tel","ms":933321,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+933421	{"t":"tel","ms":933421,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+933521	{"t":"tel","ms":933521,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+933621	{"t":"tel","ms":933621,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+933681	{"t":"inc","id":1001,"boot":1,"up":916000,"cur":1,"type":"SIM","out":"SOS","flags":27,"conf":90,"acc":7.20,"gyr":251,"lean":87.9,"gpsOk":0}
+933681	[SOS] App confirmed receipt of SOS #1001
+933681	{"t":"ack","cmd":"SOSACK","ok":1}
+933721	{"t":"tel","ms":933721,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+933821	{"t":"tel","ms":933821,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+933921	{"t":"tel","ms":933921,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+934021	{"t":"tel","ms":934021,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+934121	{"t":"tel","ms":934121,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+934221	{"t":"tel","ms":934221,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+934321	{"t":"tel","ms":934321,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+934421	{"t":"tel","ms":934421,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+934521	{"t":"tel","ms":934521,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+934621	{"t":"tel","ms":934621,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+934721	{"t":"tel","ms":934721,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+934821	{"t":"tel","ms":934821,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+934921	{"t":"tel","ms":934921,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+935021	{"t":"tel","ms":935021,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+935121	{"t":"tel","ms":935121,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+935221	{"t":"tel","ms":935221,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+935321	{"t":"tel","ms":935321,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+935421	{"t":"tel","ms":935421,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+935521	{"t":"tel","ms":935521,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+935621	{"t":"tel","ms":935621,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+935721	{"t":"tel","ms":935721,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+935821	{"t":"tel","ms":935821,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+935921	{"t":"tel","ms":935921,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+936021	{"t":"tel","ms":936021,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+936121	{"t":"tel","ms":936121,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+936221	{"t":"tel","ms":936221,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+936321	{"t":"tel","ms":936321,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+936421	{"t":"tel","ms":936421,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+936521	{"t":"tel","ms":936521,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+936621	{"t":"tel","ms":936621,"st":"SOS_SENT","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+936681	{"t":"inc","id":1001,"boot":1,"up":916000,"cur":1,"type":"SIM","out":"RESOLVED","flags":27,"conf":90,"acc":7.20,"gyr":251,"lean":87.9,"gpsOk":0}
+936681	[STATE] SAFE (explicit reset)
+936681	{"t":"state","st":"SAFE","prev":"SOS_SENT","why":"explicit reset","inc":0,"type":"SIM","cd":0,"ms":936681}
+936681	{"t":"ack","cmd":"RESET","ok":1}
+936721	{"t":"tel","ms":936721,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+936821	{"t":"tel","ms":936821,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+936821	[IMU] Roll: 0.0° | Pitch: 0.0° | Acceleration: 1.00g | Angular velocity: 0°/s
+936821	[DETECTOR] Crash confidence: 0% | State: SAFE | detection re-arms when upright
+936921	{"t":"tel","ms":936921,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+937021	{"t":"tel","ms":937021,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+937121	{"t":"tel","ms":937121,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+937221	{"t":"tel","ms":937221,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+937321	{"t":"tel","ms":937321,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":0.99,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+937421	{"t":"tel","ms":937421,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+937521	{"t":"tel","ms":937521,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+937621	{"t":"tel","ms":937621,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+937721	{"t":"tel","ms":937721,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+937821	{"t":"tel","ms":937821,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+937921	{"t":"tel","ms":937921,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+938021	{"t":"tel","ms":938021,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.01,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+938121	{"t":"tel","ms":938121,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+938221	{"t":"tel","ms":938221,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+938321	{"t":"tel","ms":938321,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+938421	{"t":"tel","ms":938421,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+938521	{"t":"tel","ms":938521,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+938621	{"t":"tel","ms":938621,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+938721	{"t":"tel","ms":938721,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+938821	{"t":"tel","ms":938821,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+938921	{"t":"tel","ms":938921,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+939021	{"t":"tel","ms":939021,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+939121	{"t":"tel","ms":939121,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+939221	{"t":"tel","ms":939221,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+939321	{"t":"tel","ms":939321,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+939421	{"t":"tel","ms":939421,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+939521	{"t":"tel","ms":939521,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+939621	{"t":"tel","ms":939621,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":0,"ref":1,"bat":-1,"gps":0}
+939681	[BUTTON] Emulated press from app
+939681	{"t":"inc","id":1002,"boot":1,"up":939681,"cur":1,"type":"TEST","out":"OPEN","flags":0,"conf":0,"acc":0.00,"gyr":0,"lean":0.0,"gpsOk":0}
+939681	[STATE] MANUAL_TEST (button)
+939681	[TEST] TEST / MANUAL TRIGGER - simulated alarm, NOT a real crash. Press again to clear.
+939681	{"t":"state","st":"MANUAL_TEST","prev":"SAFE","why":"button","inc":1002,"type":"TEST","cd":0,"ms":939681}
+939681	{"t":"ack","cmd":"BTN","ok":1}
+939721	{"t":"tel","ms":939721,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+939821	{"t":"tel","ms":939821,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+939921	{"t":"tel","ms":939921,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+940021	{"t":"tel","ms":940021,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+940121	{"t":"tel","ms":940121,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+940221	{"t":"tel","ms":940221,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+940321	{"t":"tel","ms":940321,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+940421	{"t":"tel","ms":940421,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+940521	{"t":"tel","ms":940521,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+940621	{"t":"tel","ms":940621,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+940721	{"t":"tel","ms":940721,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+940821	{"t":"tel","ms":940821,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+940921	{"t":"tel","ms":940921,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+941021	{"t":"tel","ms":941021,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+941121	{"t":"tel","ms":941121,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+941221	{"t":"tel","ms":941221,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+941321	{"t":"tel","ms":941321,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+941421	{"t":"tel","ms":941421,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+941521	{"t":"tel","ms":941521,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+941621	{"t":"tel","ms":941621,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+941721	{"t":"tel","ms":941721,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+941821	{"t":"tel","ms":941821,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+941821	[IMU] Roll: 0.0° | Pitch: 0.0° | Acceleration: 1.00g | Angular velocity: 0°/s
+941821	[DETECTOR] Crash confidence: 0% | State: MANUAL_TEST
+941921	{"t":"tel","ms":941921,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+942021	{"t":"tel","ms":942021,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+942121	{"t":"tel","ms":942121,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+942221	{"t":"tel","ms":942221,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+942321	{"t":"tel","ms":942321,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+942421	{"t":"tel","ms":942421,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+942521	{"t":"tel","ms":942521,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+942621	{"t":"tel","ms":942621,"st":"MANUAL_TEST","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+942681	[BUTTON] Emulated press from app
+942681	{"t":"inc","id":1002,"boot":1,"up":939681,"cur":1,"type":"TEST","out":"TEST_CLEARED","flags":0,"conf":0,"acc":0.00,"gyr":0,"lean":0.0,"gpsOk":0}
+942681	[STATE] SAFE (button)
+942681	[TEST] Manual test cleared
+942681	{"t":"state","st":"SAFE","prev":"MANUAL_TEST","why":"button","inc":0,"type":"TEST","cd":0,"ms":942681}
+942681	{"t":"ack","cmd":"BTN","ok":1}
+942721	{"t":"tel","ms":942721,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+942821	{"t":"tel","ms":942821,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+942921	{"t":"tel","ms":942921,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+943021	{"t":"tel","ms":943021,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+943121	{"t":"tel","ms":943121,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+943221	{"t":"tel","ms":943221,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+943321	{"t":"tel","ms":943321,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+943421	{"t":"tel","ms":943421,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+943521	{"t":"tel","ms":943521,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+943621	{"t":"tel","ms":943621,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+943721	{"t":"tel","ms":943721,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+943821	{"t":"tel","ms":943821,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+943921	{"t":"tel","ms":943921,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+944021	{"t":"tel","ms":944021,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+944121	{"t":"tel","ms":944121,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+944221	{"t":"tel","ms":944221,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+944321	{"t":"tel","ms":944321,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+944421	{"t":"tel","ms":944421,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+944521	{"t":"tel","ms":944521,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+944621	{"t":"tel","ms":944621,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+944721	{"t":"tel","ms":944721,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+944821	{"t":"tel","ms":944821,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+944921	{"t":"tel","ms":944921,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+945021	{"t":"tel","ms":945021,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+945121	{"t":"tel","ms":945121,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+945221	{"t":"tel","ms":945221,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+945321	{"t":"tel","ms":945321,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+945421	{"t":"tel","ms":945421,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.01,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+945521	{"t":"tel","ms":945521,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
+945621	{"t":"tel","ms":945621,"st":"SAFE","r":0.0,"p":0.0,"tl":0.0,"a":1.00,"ap":1.00,"g":0,"gp":0,"c":0,"ph":0,"imu":1,"cal":1,"lvl":0,"sim":0,"cd":0,"ab":0,"arm":1,"ref":1,"bat":-1,"gps":0}
