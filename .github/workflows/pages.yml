@@ -1,11 +1,12 @@
-# Deploys the safety dashboard (app/) to GitHub Pages.
-# One-time setup: repo Settings -> Pages -> Build and deployment -> Source: "GitHub Actions".
-name: Deploy dashboard to GitHub Pages
+# Optional: deploy ONLY the dashboard (app/) to GitHub Pages with GitHub Actions.
+#
+# Not needed for the default setup: with Settings -> Pages -> "Deploy from a branch"
+# (main, / root) the site already works — the root index.html redirects to app/.
+# To use this workflow instead, set Settings -> Pages -> Source: "GitHub Actions"
+# and run it from the Actions tab.
+name: Deploy dashboard to GitHub Pages (Actions source)
 
 on:
-  push:
-    branches: [main]
-    paths: ["app/**", "firmware/**", "tests/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
 permissions:

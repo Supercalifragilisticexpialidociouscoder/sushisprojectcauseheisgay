@@ -34,9 +34,10 @@ The dashboard is the static files in `app/`, with no build step. Web Serial and 
 
 ### GitHub Pages (recommended)
 
-1. Repo **Settings → Pages → Build and deployment → Source: GitHub Actions** (one time).
-2. Merge to `main`, or run the *Deploy dashboard to GitHub Pages* workflow manually (Actions tab). The workflow runs the firmware test-suite, regenerates the demo data, and publishes `app/`.
-3. Open <https://supercalifragilisticexpialidociouscoder.github.io/sushisprojectcauseheisgay/>.
+1. Repo **Settings → Pages → Build and deployment → Source: Deploy from a branch**, branch **`main`**, folder **`/ (root)`**.
+2. Open <https://supercalifragilisticexpialidociouscoder.github.io/sushisprojectcauseheisgay/>. The root `index.html` redirects to `app/`, and `.nojekyll` makes Pages serve the files exactly as they are in the repo. Every merge to `main` updates the site within about a minute.
+
+*Alternative:* set the Source to **GitHub Actions** and run the *Deploy dashboard to GitHub Pages (Actions source)* workflow from the Actions tab. It publishes only `app/`, at the site root.
 
 On GitHub Pages the dashboard:
 - **works offline** after the first visit (service worker), so it still opens with no mobile data. Sending alerts still needs internet.
