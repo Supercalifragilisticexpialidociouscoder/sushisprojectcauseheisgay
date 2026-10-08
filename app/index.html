@@ -4,7 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0b0d10">
+  <meta name="description" content="Bike Safety Belt rider safety dashboard: live crash-detection status, emergency countdown and SOS.">
   <title>Bike Safety Belt</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -24,6 +28,8 @@
       <button class="btn btn-ghost hidden" id="btnDisconnect">Disconnect</button>
     </div>
   </header>
+
+  <div class="banner hidden" id="compatBanner"></div>
 
   <div class="banner hidden" id="simBanner">SIMULATION / REPLAY DATA — not live sensor readings. No real emergency alerts are sent.</div>
 

@@ -30,7 +30,29 @@ Type `HELP` in the Serial Monitor (line ending: *Newline*) for the commands.
 
 ## 2. Dashboard
 
-The dashboard is static files in `app/`. Web Serial and Web Bluetooth only work on `https://` or `http://localhost`.
+The dashboard is the static files in `app/`, with no build step. Web Serial and Web Bluetooth only work on secure pages (`https://` or `http://localhost`), which GitHub Pages provides.
+
+### GitHub Pages (recommended)
+
+1. Repo **Settings → Pages → Build and deployment → Source: GitHub Actions** (one time).
+2. Merge to `main`, or run the *Deploy dashboard to GitHub Pages* workflow manually (Actions tab). The workflow runs the firmware test-suite, regenerates the demo data, and publishes `app/`.
+3. Open <https://supercalifragilisticexpialidociouscoder.github.io/sushisprojectcauseheisgay/>.
+
+On GitHub Pages the dashboard:
+- **works offline** after the first visit (service worker), so it still opens with no mobile data. Sending alerts still needs internet.
+- **can be installed** as an app: Chrome menu → *Install app* / *Add to Home screen*.
+- **keeps the screen on** while a device is connected (Wake Lock), because the SOS path runs through this page.
+- shows a warning banner and disables the button when the browser cannot use USB or Bluetooth.
+
+| Device / browser | USB (Connect USB) | Bluetooth (Connect Bluetooth, ESP32 only) |
+|---|---|---|
+| Chrome / Edge on Windows, macOS, Linux, ChromeOS | yes | yes |
+| Chrome on Android | no | yes |
+| Firefox, Safari, any browser on iPhone/iPad | no | no (Demo replay only) |
+
+The device advertises over Bluetooth as `BSB-XXXX`.
+
+### Local
 
 ```bash
 cd app
@@ -38,10 +60,7 @@ python3 -m http.server 8000
 # open http://localhost:8000 in Chrome or Edge
 ```
 
-- **Computer + USB cable**: *Connect USB*. Needs Chrome or Edge.
-- **Android phone + ESP32**: host `app/` on any HTTPS static host (for example GitHub Pages), open it in Chrome on Android and choose *Connect Bluetooth*. The device advertises as `BSB-XXXX`.
-- iOS Safari supports neither Web Serial nor Web Bluetooth.
-- **Demo replay** plays `app/samples/demo-session.log` (a recorded session that includes a simulated crash), so you can explore the UI without hardware.
+**Demo replay** plays `app/samples/demo-session.log` (a recorded session that includes a simulated crash), so you can explore the UI without hardware.
 
 ## 3. First-time configuration (Settings tab)
 
