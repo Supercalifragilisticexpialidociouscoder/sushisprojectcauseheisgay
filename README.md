@@ -36,6 +36,17 @@ MPU-6050 ──I²C──► Microcontroller (firmware) ──USB serial / BLE�
 6. With the bike upright on its centre stand: **Settings → Calibrate riding orientation**.
 7. Settings: add emergency contacts and an automatic alert channel (ntfy topic or webhook).
 
+## Arduino UNO version
+
+`firmware/BikeSafetyBelt_UNO/BikeSafetyBelt_UNO.ino` is a single-file build for an **Arduino UNO** (CH340 clones included), matched to the dashboard protocol: 115200 baud, newline-terminated lines. It needs no extra libraries. The pins are fixed for that build: MPU-6050 SDA=A4 / SCL=A5, red LED D12, green LED D13, buzzer D8 (`tone()`), button D2 to GND.
+
+- It uses ~31.7 KB of the UNO's 32 KB flash and 1.25 KB of its 2 KB RAM.
+- Telemetry and detection run all the time, whether or not the app is connected.
+- A normal state blinks the green LED. An alarm blinks the red LED with the buzzer beeping in sync. A sensor error keeps the red LED solid.
+- Sustained over-tilt raises POSSIBLE_CRASH (an alarm, but never an SOS by itself). A fast fall with rotation, impact and the bike resting on its side gives CRASH_DETECTED, then a 10 s countdown, then an SOS through the app.
+- A button press during any alarm means "I'M OKAY" and is reported to the app.
+- The on-device test simulator does not fit in 32 KB, so `SIM` replies "not available on UNO". To test on the bench, flip the sensor quickly onto its side. Demo replay still works in the app.
+
 ## How crashes are detected (short version)
 
 A lean angle on its own **never** triggers an alarm, and neither does an acceleration spike on its own. Five indicators are scored from 0 to 100 % against the selected vehicle profile (scooter / standard / sport):
